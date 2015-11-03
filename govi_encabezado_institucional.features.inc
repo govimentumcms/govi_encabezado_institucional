@@ -41,14 +41,6 @@ function govi_encabezado_institucional_image_default_styles() {
  */
 function govi_encabezado_institucional_node_info() {
   $items = array(
-    'enlace_simple' => array(
-      'name' => t('Enlace simple'),
-      'base' => 'node_content',
-      'description' => '',
-      'has_title' => '1',
-      'title_label' => t('Titulo'),
-      'help' => '',
-    ),
     'imagen_simple' => array(
       'name' => t('Imagen simple'),
       'base' => 'node_content',

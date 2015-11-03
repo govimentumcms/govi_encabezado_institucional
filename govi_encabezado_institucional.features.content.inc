@@ -11,7 +11,7 @@ function govi_encabezado_institucional_content_defaults() {
   $content = array();
 
   $content['logo_administracion_default'] = (object) array(
-    'title' => 'Logo Bogotá Humana',
+    'title' => 'Logo Administración Distrital Default',
     'status' => 1,
     'promote' => 0,
     'sticky' => 0,
