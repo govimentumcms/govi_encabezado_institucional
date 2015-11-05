@@ -40,7 +40,7 @@ function govi_encabezado_institucional_views_default_views() {
   $handler->display->display_options['fields']['field_imagen']['element_label_colon'] = FALSE;
   $handler->display->display_options['fields']['field_imagen']['click_sort_column'] = 'fid';
   $handler->display->display_options['fields']['field_imagen']['settings'] = array(
-    'image_style' => '',
+    'image_style' => 'logo_header',
     'image_link' => '',
   );
   /* Sort criterion: Content: Post date */
