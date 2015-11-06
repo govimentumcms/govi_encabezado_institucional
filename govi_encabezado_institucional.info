@@ -27,7 +27,6 @@ features[field_base][] = field_enlace
 features[field_base][] = field_imagen
 features[field_base][] = field_imagen_link
 features[field_instance][] = node-enlace_simple-field_enlace
-features[field_instance][] = node-enlace_simple-field_tipo
 features[field_instance][] = node-imagen_simple-field_imagen
 features[field_instance][] = node-imagen_simple-field_imagen_link
 features[image][] = logo_header

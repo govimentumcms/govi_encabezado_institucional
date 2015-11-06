@@ -62,42 +62,6 @@ function govi_encabezado_institucional_field_default_field_instances() {
     ),
   );
 
-  // Exported field_instance: 'node-enlace_simple-field_tipo'.
-  $field_instances['node-enlace_simple-field_tipo'] = array(
-    'bundle' => 'enlace_simple',
-    'default_value' => NULL,
-    'deleted' => 0,
-    'description' => '',
-    'display' => array(
-      'default' => array(
-        'label' => 'above',
-        'module' => 'list',
-        'settings' => array(),
-        'type' => 'list_default',
-        'weight' => 1,
-      ),
-      'teaser' => array(
-        'label' => 'above',
-        'settings' => array(),
-        'type' => 'hidden',
-        'weight' => 0,
-      ),
-    ),
-    'entity_type' => 'node',
-    'field_name' => 'field_tipo',
-    'label' => 'Tipo',
-    'required' => FALSE,
-    'settings' => array(
-      'user_register_form' => FALSE,
-    ),
-    'widget' => array(
-      'module' => 'options',
-      'settings' => array(),
-      'type' => 'options_select',
-      'weight' => -3,
-    ),
-  );
-
   // Exported field_instance: 'node-imagen_simple-field_imagen'.
   $field_instances['node-imagen_simple-field_imagen'] = array(
     'bundle' => 'imagen_simple',
@@ -210,7 +174,6 @@ function govi_encabezado_institucional_field_default_field_instances() {
   t('Enlace');
   t('Imagen');
   t('Link');
-  t('Tipo');
 
   return $field_instances;
 }
