@@ -16,6 +16,12 @@ function govi_encabezado_institucional_menu_default_menu_custom() {
     'title' => 'Menu superior',
     'description' => 'Implementa mapa del sitio y acceso de usuario',
   );
+  // Exported menu: menu-menu-secundario.
+  $menus['menu-menu-secundario'] = array(
+    'menu_name' => 'menu-menu-secundario',
+    'title' => 'Menu Secundario',
+    'description' => '',
+  );
   // Exported menu: user-menu.
   $menus['user-menu'] = array(
     'menu_name' => 'user-menu',
@@ -25,6 +31,7 @@ function govi_encabezado_institucional_menu_default_menu_custom() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Implementa mapa del sitio y acceso de usuario');
+  t('Menu Secundario');
   t('Menu superior');
   t('The <em>User</em> menu contains links related to the user\'s account, as well as the \'Log out\' link.');
   t('User menu');
