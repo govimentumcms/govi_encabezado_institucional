@@ -33,6 +33,22 @@ function govi_encabezado_institucional_image_default_styles() {
     ),
   );
 
+  // Exported image style: logo_header_escudo.
+  $styles['logo_header_escudo'] = array(
+    'label' => 'logo header escudo',
+    'effects' => array(
+      2 => array(
+        'name' => 'image_scale',
+        'data' => array(
+          'width' => '',
+          'height' => 55,
+          'upscale' => 1,
+        ),
+        'weight' => 1,
+      ),
+    ),
+  );
+
   return $styles;
 }
 

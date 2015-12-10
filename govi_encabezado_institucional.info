@@ -31,6 +31,7 @@ features[field_instance][] = node-enlace_simple-field_enlace
 features[field_instance][] = node-imagen_simple-field_imagen
 features[field_instance][] = node-imagen_simple-field_imagen_link
 features[image][] = logo_header
+features[image][] = logo_header_escudo
 features[menu_custom][] = menu-barra-superior
 features[menu_custom][] = menu-menu-secundario
 features[menu_custom][] = user-menu

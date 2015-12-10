@@ -17,9 +17,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'router_path' => 'node/%',
     'link_title' => 'Gestión',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'main-menu_gestin:node/1',
     ),
     'module' => 'menu',
@@ -65,9 +63,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'router_path' => 'node/%',
     'link_title' => 'Marco legal',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'main-menu_marco-legal:node/1',
     ),
     'module' => 'menu',
@@ -86,9 +82,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'router_path' => 'node/%',
     'link_title' => 'Misión',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'main-menu_misin:node/1',
     ),
     'module' => 'menu',
@@ -107,9 +101,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'router_path' => 'node/%',
     'link_title' => 'Organización',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'main-menu_organizacin:node/1',
     ),
     'module' => 'menu',
@@ -155,9 +147,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'router_path' => 'node/%',
     'link_title' => 'Contáctenos',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'menu-menu-secundario_contctenos:node/1',
     ),
     'module' => 'menu',
@@ -175,9 +165,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Inicio',
     'options' => array(
-      'attributes' => array(
-        'title' => '',
-      ),
+      'attributes' => array(),
       'identifier' => 'menu-menu-secundario_inicio:<front>',
     ),
     'module' => 'menu',
