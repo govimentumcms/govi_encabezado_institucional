@@ -72,6 +72,17 @@ function govi_encabezado_institucional_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['logo_administracion_defaut'] = array(
+    t('Master'),
+    t('Logo Administración Distrital Default'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Block'),
+  );
   $export['logo_administracion_defaut'] = $view;
 
   $view = new view();
@@ -136,6 +147,17 @@ function govi_encabezado_institucional_views_default_views() {
 
   /* Display: Block */
   $handler = $view->new_display('block', 'Block', 'block');
+  $translatables['logo_escudo_colombia_default'] = array(
+    t('Master'),
+    t('Logo República de Colombia Default'),
+    t('more'),
+    t('Apply'),
+    t('Reset'),
+    t('Sort by'),
+    t('Asc'),
+    t('Desc'),
+    t('Block'),
+  );
   $export['logo_escudo_colombia_default'] = $view;
 
   return $export;
