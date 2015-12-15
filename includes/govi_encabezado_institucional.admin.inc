@@ -52,7 +52,7 @@ function govi_encabezado_institucional_admin_config_main() {
         '#type' => 'textfield',
         '#title' => 'Nombre de la entidad',
         '#default_value' => variable_get('header_entidad'),
-        '#required' => TRUE
+        '#required' => FALSE
     );
 
     $form['info_basica_entidad']['logo'] = array(
@@ -67,6 +67,7 @@ function govi_encabezado_institucional_admin_config_main() {
             'file_validate_image_resolution' => array('110x60'),
         ),
         '#default_value' => variable_get('logo_entidad'),
+        '#required' => FALSE
     );
 
     $form['info_redes_entidad'] = array(
