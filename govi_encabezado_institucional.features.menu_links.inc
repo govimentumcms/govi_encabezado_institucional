@@ -118,24 +118,30 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_normatividad:<front>.
-  $menu_links['main-menu_normatividad:<front>'] = array(
+  // Exported menu link: main-menu_normatividad:menutoken/567b216f606cb.
+  $menu_links['main-menu_normatividad:menutoken/567b216f606cb'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
+    'link_path' => 'menutoken/567b216f606cb',
+    'router_path' => 'menutoken/%',
     'link_title' => 'Normatividad',
     'options' => array(
+      'identifier' => 'main-menu_normatividad:menutoken/567b216f606cb',
       'attributes' => array(),
       'item_attributes' => array(
         'id' => '',
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_normatividad:<front>',
+      'menu_token_link_path' => '[site:url]normatividad',
+      'menu_token_data' => array(),
+      'menu_token_options' => array(
+        'clear' => 0,
+      ),
+      'alter' => TRUE,
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => 0,
