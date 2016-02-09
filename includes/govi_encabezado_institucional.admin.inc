@@ -77,7 +77,7 @@ function govi_encabezado_institucional_admin_config_main() {
     );
 
     $form['info_redes_entidad']['redes_sociales'] = array(
-        '#markup' => '<p>Ingrese a <a href="#overlay=admin/config/content/easy_social" title="Configuración de redes sociales">este enlace</a> para realizar la configuración
+        '#markup' => '<p>Ingrese a <a href="/admin/config/content/easy_social" title="Configuración de redes sociales">este enlace</a> para realizar la configuración
 global de las redes sociales</p>',
     );
 
