@@ -16,7 +16,7 @@ function govi_encabezado_institucional_menu() {
         'file' => 'system.admin.inc',
         'file path' => drupal_get_path('module', 'system'),
         'position' => 'left',
-        'weight' => 0,
+        'weight' => -20,
     );
 
     $items['admin/config/features/institutional_header'] = array(
