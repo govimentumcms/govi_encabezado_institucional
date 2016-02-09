@@ -16,7 +16,7 @@ function govi_encabezado_institucional_menu() {
         'file' => 'system.admin.inc',
         'file path' => drupal_get_path('module', 'system'),
         'position' => 'left',
-        'weight' => 0
+        'weight' => 0,
     );
 
     $items['admin/config/features/institutional_header'] = array(
@@ -24,7 +24,7 @@ function govi_encabezado_institucional_menu() {
         'description' => 'Configuración de los elementos del Header Institucional',
         'page callback' => 'drupal_get_form',
         'page arguments' => array('govi_encabezado_institucional_admin_config_main'),
-        'access arguments' => array('administer feature institutional header'),
+        'access arguments' => array('access administration pages'),
         'file' => 'includes/govi_encabezado_institucional.admin.inc'
     );
 
