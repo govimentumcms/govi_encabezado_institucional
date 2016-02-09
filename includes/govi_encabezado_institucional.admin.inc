@@ -108,6 +108,8 @@ global de las redes sociales</p>',
         '#type' => 'textfield',
         '#title' => 'Excepciones',
         '#description' => 'Este debe contener una lista separada por comas',
+        '#default_value' => variable_get('proxy_exceptions'),
+
     );
 
     //return system_settings_form($form);
