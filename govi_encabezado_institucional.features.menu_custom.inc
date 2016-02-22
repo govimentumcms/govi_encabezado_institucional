@@ -22,6 +22,12 @@ function govi_encabezado_institucional_menu_default_menu_custom() {
     'title' => 'Menu Secundario',
     'description' => '',
   );
+  // Exported menu: menu-transparencia-segundo-nivel.
+  $menus['menu-transparencia-segundo-nivel'] = array(
+    'menu_name' => 'menu-transparencia-segundo-nivel',
+    'title' => 'Transparencia Segundo nivel',
+    'description' => 'Transparencia segundo nivel',
+  );
   // Exported menu: user-menu.
   $menus['user-menu'] = array(
     'menu_name' => 'user-menu',
@@ -34,6 +40,8 @@ function govi_encabezado_institucional_menu_default_menu_custom() {
   t('Menu Secundario');
   t('Menu superior');
   t('The <em>User</em> menu contains links related to the user\'s account, as well as the \'Log out\' link.');
+  t('Transparencia Segundo nivel');
+  t('Transparencia segundo nivel');
   t('User menu');
 
   return $menus;

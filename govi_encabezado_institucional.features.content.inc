@@ -11,6 +11,7 @@ function govi_encabezado_institucional_content_defaults() {
   $content = array();
 
   $content['logo_administracion_default'] = (object) array(
+    'exported_path' => 'content/logo-administración-distrital-default',
     'title' => 'Logo Administración Distrital Default',
     'status' => 1,
     'promote' => 0,
@@ -29,7 +30,7 @@ function govi_encabezado_institucional_content_defaults() {
           'filemime' => 'image/png',
           'filesize' => 11283,
           'status' => 1,
-          'uuid' => 'f54c6767-24cd-474e-9419-37d52d625602',
+          'uuid' => '53d6794f-7ec9-4264-8a1b-2478f1272d26',
           'rdf_mapping' => array(),
           'alt' => 'Logo Bogotá mejor para todos',
           'title' => 'Logo Bogota mejor para todos',
@@ -51,6 +52,7 @@ function govi_encabezado_institucional_content_defaults() {
   );
 
   $content['logo_escudo_colombia_default'] = (object) array(
+    'exported_path' => 'content/logo-república-colombia',
     'title' => 'Logo República de Colombia',
     'status' => 1,
     'promote' => 0,
@@ -69,7 +71,7 @@ function govi_encabezado_institucional_content_defaults() {
           'filemime' => 'image/png',
           'filesize' => 24943,
           'status' => 1,
-          'uuid' => '74464af1-fe55-42f7-83df-cc9fe3ee412a',
+          'uuid' => 'a4d7b66c-6222-43a8-ad21-9f3165ab43af',
           'rdf_mapping' => array(),
           'alt' => 'Logo República de Colombia',
           'title' => 'Logo República de Colombia',
