@@ -37,6 +37,32 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_concurso-de-mritos:<front>.
+  $menu_links['main-menu_concurso-de-mritos:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Concurso de méritos',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_concurso-de-mritos:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_contratacin:<front>',
+  );
   // Exported menu link: main-menu_contacto:<front>.
   $menu_links['main-menu_contacto:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -63,6 +89,139 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
     'customized' => 1,
+  );
+  // Exported menu link: main-menu_contratacin-directa:<front>.
+  $menu_links['main-menu_contratacin-directa:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Contratación Directa',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_contratacin-directa:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_contratacin:<front>',
+  );
+  // Exported menu link: main-menu_contratacin:<front>.
+  $menu_links['main-menu_contratacin:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Contratación',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_contratacin:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -46,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_transparencia:node/1',
+  );
+  // Exported menu link: main-menu_directorio-de-funcionarios:organizacion/directorio-funcionarios.
+  $menu_links['main-menu_directorio-de-funcionarios:organizacion/directorio-funcionarios'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'organizacion/directorio-funcionarios',
+    'router_path' => 'organizacion/directorio-funcionarios',
+    'link_title' => 'Directorio de Funcionarios',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_directorio-de-funcionarios:organizacion/directorio-funcionarios',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_organizacin:organizacion',
+  );
+  // Exported menu link: main-menu_estados-financieros:<front>.
+  $menu_links['main-menu_estados-financieros:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Estados Financieros',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_estados-financieros:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_informacin-financiera-y-contable:<front>',
+  );
+  // Exported menu link: main-menu_estrategias-planes-e-informes:<front>.
+  $menu_links['main-menu_estrategias-planes-e-informes:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Estrategias, planes e informes',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_estrategias-planes-e-informes:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_gestin-institucional:<front>',
   );
   // Exported menu link: main-menu_eventos:calendario/ano.
   $menu_links['main-menu_eventos:calendario/ano'] = array(
@@ -91,6 +250,61 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_gestin-institucional:<front>.
+  $menu_links['main-menu_gestin-institucional:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Gestión Institucional',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_gestin-institucional:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_transparencia:node/1',
+  );
+  // Exported menu link: main-menu_informacin-financiera-y-contable:<front>.
+  $menu_links['main-menu_informacin-financiera-y-contable:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Información Financiera y Contable',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_informacin-financiera-y-contable:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -47,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_transparencia:node/1',
+  );
   // Exported menu link: main-menu_inicio:<front>.
   $menu_links['main-menu_inicio:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -118,6 +332,191 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_licitacin-pblica:<front>.
+  $menu_links['main-menu_licitacin-pblica:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Licitación pública',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_licitacin-pblica:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_contratacin:<front>',
+  );
+  // Exported menu link: main-menu_lineamientos:marco-legal/lineamientos.
+  $menu_links['main-menu_lineamientos:marco-legal/lineamientos'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'marco-legal/lineamientos',
+    'router_path' => 'marco-legal/lineamientos',
+    'link_title' => 'Lineamientos',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_lineamientos:marco-legal/lineamientos',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_marco-legal:marco-legal',
+  );
+  // Exported menu link: main-menu_marco-legal:marco-legal.
+  $menu_links['main-menu_marco-legal:marco-legal'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'marco-legal',
+    'router_path' => 'marco-legal',
+    'link_title' => 'Marco Legal',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_marco-legal:marco-legal',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_transparencia:node/1',
+  );
+  // Exported menu link: main-menu_mecanismos-de-supervicin-notificacin-y-vigilancia:<front>.
+  $menu_links['main-menu_mecanismos-de-supervicin-notificacin-y-vigilancia:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Mecanismos de Supervición Notificación y Vigilancia',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_mecanismos-de-supervicin-notificacin-y-vigilancia:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_gestin-institucional:<front>',
+  );
+  // Exported menu link: main-menu_misin:organizacion.
+  $menu_links['main-menu_misin:organizacion'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'organizacion',
+    'router_path' => 'organizacion',
+    'link_title' => 'Misión',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_misin:organizacion',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_organizacin:organizacion',
+  );
+  // Exported menu link: main-menu_mnima-cuanta:<front>.
+  $menu_links['main-menu_mnima-cuanta:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Mínima CuantÍa',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_mnima-cuanta:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_contratacin:<front>',
+  );
+  // Exported menu link: main-menu_normatividad:marco-legal/normatividad.
+  $menu_links['main-menu_normatividad:marco-legal/normatividad'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'marco-legal/normatividad',
+    'router_path' => 'marco-legal/normatividad',
+    'link_title' => 'Normatividad',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_normatividad:marco-legal/normatividad',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_marco-legal:marco-legal',
+  );
   // Exported menu link: main-menu_noticias:noticias.
   $menu_links['main-menu_noticias:noticias'] = array(
     'menu_name' => 'main-menu',
@@ -144,6 +543,32 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -48,
     'customized' => 1,
+  );
+  // Exported menu link: main-menu_organigrama:<front>.
+  $menu_links['main-menu_organigrama:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Organigrama',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_organigrama:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_organizacin:organizacion',
   );
   // Exported menu link: main-menu_organizacin:organizacion.
   $menu_links['main-menu_organizacin:organizacion'] = array(
@@ -174,6 +599,110 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:node/1',
   );
+  // Exported menu link: main-menu_planes:<front>.
+  $menu_links['main-menu_planes:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Planes',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_planes:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_gestin-institucional:<front>',
+  );
+  // Exported menu link: main-menu_programas-y-proyectos:<front>.
+  $menu_links['main-menu_programas-y-proyectos:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Programas y Proyectos',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_programas-y-proyectos:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_gestin-institucional:<front>',
+  );
+  // Exported menu link: main-menu_redicin-de-cuentas:<front>.
+  $menu_links['main-menu_redicin-de-cuentas:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Redición de Cuentas',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_redicin-de-cuentas:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_gestin-institucional:<front>',
+  );
+  // Exported menu link: main-menu_seleccin-abreviada:<front>.
+  $menu_links['main-menu_seleccin-abreviada:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Selección Abreviada',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_seleccin-abreviada:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_contratacin:<front>',
+  );
   // Exported menu link: main-menu_transparencia:node/1.
   $menu_links['main-menu_transparencia:node/1'] = array(
     'menu_name' => 'main-menu',
@@ -200,6 +729,32 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 1,
     'weight' => -49,
     'customized' => 1,
+  );
+  // Exported menu link: main-menu_visin:organizacion.
+  $menu_links['main-menu_visin:organizacion'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'organizacion',
+    'router_path' => 'organizacion',
+    'link_title' => 'Visión',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_visin:organizacion',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_organizacin:organizacion',
   );
   // Exported menu link: menu-menu-secundario_contctenos:node/1.
   $menu_links['menu-menu-secundario_contctenos:node/1'] = array(
@@ -389,17 +944,34 @@ function govi_encabezado_institucional_menu_default_menu_links() {
   // Translatables
   // Included for use with string extractors like potx.
   t('Atención al Ciudadano');
+  t('Concurso de méritos');
   t('Contacto');
   t('Contratación');
+  t('Contratación Directa');
   t('Contáctenos');
+  t('Directorio de Funcionarios');
+  t('Estados Financieros');
+  t('Estrategias, planes e informes');
   t('Eventos');
   t('Gestión Institucional');
   t('Información Financiera y Contable');
   t('Inicio');
+  t('Licitación pública');
+  t('Lineamientos');
   t('Marco Legal');
+  t('Mecanismos de Supervición Notificación y Vigilancia');
+  t('Misión');
+  t('Mínima CuantÍa');
+  t('Normatividad');
   t('Noticias');
+  t('Organigrama');
   t('Organización');
+  t('Planes');
+  t('Programas y Proyectos');
+  t('Redición de Cuentas');
+  t('Selección Abreviada');
   t('Transparencia');
+  t('Visión');
 
   return $menu_links;
 }
