@@ -28,10 +28,10 @@ function govi_encabezado_institucional_context_default_contexts() {
     ),
     'path' => array(
       'values' => array(
-        'marco-legal/*' => 'marco-legal/*',
-        'marco-legal' => 'marco-legal',
-        'organizacion/*' => 'organizacion/*',
-        'organizacion' => 'organizacion',
+        'transparencia/marco-legal/*' => 'transparencia/marco-legal/*',
+        'transparencia/marco-legal' => 'transparencia/marco-legal',
+        'transparencia/organizacion/*' => 'transparencia/organizacion/*',
+        'transparencia/organizacion' => 'transparencia/organizacion',
       ),
     ),
   );

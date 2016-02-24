@@ -142,13 +142,16 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:node/1',
   );
-  // Exported menu link: main-menu_directorio-de-funcionarios:organizacion/directorio-funcionarios.
-  $menu_links['main-menu_directorio-de-funcionarios:organizacion/directorio-funcionarios'] = array(
+  // Exported menu link: main-menu_directorio-de-funcionarios:transparencia/organizacion/directorio-funcionarios.
+  $menu_links['main-menu_directorio-de-funcionarios:transparencia/organizacion/directorio-funcionarios'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'organizacion/directorio-funcionarios',
-    'router_path' => 'organizacion/directorio-funcionarios',
+    'link_path' => 'transparencia/organizacion/directorio-funcionarios',
+    'router_path' => 'transparencia/organizacion/directorio-funcionarios',
     'link_title' => 'Directorio de Funcionarios',
     'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
       'attributes' => array(),
       'item_attributes' => array(
         'data-inner-width' => '',
@@ -157,7 +160,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_directorio-de-funcionarios:organizacion/directorio-funcionarios',
+      'identifier' => 'main-menu_directorio-de-funcionarios:transparencia/organizacion/directorio-funcionarios',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -166,7 +169,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -47,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_organizacin:organizacion',
+    'parent_identifier' => 'main-menu_organizacin:transparencia/organizacion',
   );
   // Exported menu link: main-menu_estados-financieros:<front>.
   $menu_links['main-menu_estados-financieros:<front>'] = array(
@@ -358,13 +361,16 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_contratacin:<front>',
   );
-  // Exported menu link: main-menu_lineamientos:marco-legal/lineamientos.
-  $menu_links['main-menu_lineamientos:marco-legal/lineamientos'] = array(
+  // Exported menu link: main-menu_lineamientos:transparencia/marco-legal/lineamientos.
+  $menu_links['main-menu_lineamientos:transparencia/marco-legal/lineamientos'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'marco-legal/lineamientos',
-    'router_path' => 'marco-legal/lineamientos',
+    'link_path' => 'transparencia/marco-legal/lineamientos',
+    'router_path' => 'transparencia/marco-legal/lineamientos',
     'link_title' => 'Lineamientos',
     'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
       'attributes' => array(),
       'item_attributes' => array(
         'data-inner-width' => '',
@@ -373,7 +379,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_lineamientos:marco-legal/lineamientos',
+      'identifier' => 'main-menu_lineamientos:transparencia/marco-legal/lineamientos',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -382,13 +388,13 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -49,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_marco-legal:marco-legal',
+    'parent_identifier' => 'main-menu_marco-legal:transparencia/marco-legal',
   );
-  // Exported menu link: main-menu_marco-legal:marco-legal.
-  $menu_links['main-menu_marco-legal:marco-legal'] = array(
+  // Exported menu link: main-menu_marco-legal:transparencia/marco-legal.
+  $menu_links['main-menu_marco-legal:transparencia/marco-legal'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'marco-legal',
-    'router_path' => 'marco-legal',
+    'link_path' => 'transparencia/marco-legal',
+    'router_path' => 'transparencia/marco-legal',
     'link_title' => 'Marco Legal',
     'options' => array(
       'cami' => array(
@@ -402,7 +408,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_marco-legal:marco-legal',
+      'identifier' => 'main-menu_marco-legal:transparencia/marco-legal',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -439,13 +445,16 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_gestin-institucional:<front>',
   );
-  // Exported menu link: main-menu_misin:organizacion.
-  $menu_links['main-menu_misin:organizacion'] = array(
+  // Exported menu link: main-menu_misin:transparencia/organizacion.
+  $menu_links['main-menu_misin:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'organizacion',
-    'router_path' => 'organizacion',
+    'link_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia/organizacion',
     'link_title' => 'Misión',
     'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
       'attributes' => array(),
       'item_attributes' => array(
         'data-inner-width' => '',
@@ -454,7 +463,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_misin:organizacion',
+      'identifier' => 'main-menu_misin:transparencia/organizacion',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -463,7 +472,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -50,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_organizacin:organizacion',
+    'parent_identifier' => 'main-menu_organizacin:transparencia/organizacion',
   );
   // Exported menu link: main-menu_mnima-cuanta:<front>.
   $menu_links['main-menu_mnima-cuanta:<front>'] = array(
@@ -491,13 +500,16 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_contratacin:<front>',
   );
-  // Exported menu link: main-menu_normatividad:marco-legal/normatividad.
-  $menu_links['main-menu_normatividad:marco-legal/normatividad'] = array(
+  // Exported menu link: main-menu_normatividad:transparencia/marco-legal/normatividad.
+  $menu_links['main-menu_normatividad:transparencia/marco-legal/normatividad'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'marco-legal/normatividad',
-    'router_path' => 'marco-legal/normatividad',
+    'link_path' => 'transparencia/marco-legal/normatividad',
+    'router_path' => 'transparencia/marco-legal/normatividad',
     'link_title' => 'Normatividad',
     'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
       'attributes' => array(),
       'item_attributes' => array(
         'data-inner-width' => '',
@@ -506,7 +518,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_normatividad:marco-legal/normatividad',
+      'identifier' => 'main-menu_normatividad:transparencia/marco-legal/normatividad',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -515,7 +527,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -50,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_marco-legal:marco-legal',
+    'parent_identifier' => 'main-menu_marco-legal:transparencia/marco-legal',
   );
   // Exported menu link: main-menu_noticias:noticias.
   $menu_links['main-menu_noticias:noticias'] = array(
@@ -551,6 +563,9 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Organigrama',
     'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
       'attributes' => array(),
       'item_attributes' => array(
         'data-inner-width' => '',
@@ -568,13 +583,13 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -48,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_organizacin:organizacion',
+    'parent_identifier' => 'main-menu_organizacin:transparencia/organizacion',
   );
-  // Exported menu link: main-menu_organizacin:organizacion.
-  $menu_links['main-menu_organizacin:organizacion'] = array(
+  // Exported menu link: main-menu_organizacin:transparencia/organizacion.
+  $menu_links['main-menu_organizacin:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'organizacion',
-    'router_path' => 'organizacion',
+    'link_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia/organizacion',
     'link_title' => 'Organización',
     'options' => array(
       'cami' => array(
@@ -588,7 +603,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_organizacin:organizacion',
+      'identifier' => 'main-menu_organizacin:transparencia/organizacion',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -730,13 +745,16 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_visin:organizacion.
-  $menu_links['main-menu_visin:organizacion'] = array(
+  // Exported menu link: main-menu_visin:transparencia/organizacion.
+  $menu_links['main-menu_visin:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'organizacion',
-    'router_path' => 'organizacion',
+    'link_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia/organizacion',
     'link_title' => 'Visión',
     'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
       'attributes' => array(),
       'item_attributes' => array(
         'data-inner-width' => '',
@@ -745,7 +763,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_visin:organizacion',
+      'identifier' => 'main-menu_visin:transparencia/organizacion',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -754,7 +772,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -49,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_organizacin:organizacion',
+    'parent_identifier' => 'main-menu_organizacin:transparencia/organizacion',
   );
   // Exported menu link: menu-menu-secundario_contctenos:node/1.
   $menu_links['menu-menu-secundario_contctenos:node/1'] = array(
@@ -820,7 +838,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -47,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_gestin-institucional:menutoken/56c7354256ad9.
@@ -851,7 +869,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_informacin-financiera-y-contable:menutoken/56c73803dac15.
@@ -882,18 +900,19 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: menu-transparencia-segundo-nivel_marco-legal:marco-legal.
-  $menu_links['menu-transparencia-segundo-nivel_marco-legal:marco-legal'] = array(
+  // Exported menu link: menu-transparencia-segundo-nivel_marco-legal:transparencia/marco-legal.
+  $menu_links['menu-transparencia-segundo-nivel_marco-legal:transparencia/marco-legal'] = array(
     'menu_name' => 'menu-transparencia-segundo-nivel',
-    'link_path' => 'marco-legal',
-    'router_path' => 'marco-legal',
+    'link_path' => 'transparencia/marco-legal',
+    'router_path' => 'transparencia/marco-legal',
     'link_title' => 'Marco Legal',
     'options' => array(
       'cami' => array(
-        'pages' => 'marco-legal/*',
+        'pages' => 'transparencia/marco-legal
+transparencia/marco-legal/*',
       ),
       'attributes' => array(),
       'item_attributes' => array(
@@ -903,9 +922,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'alter' => TRUE,
-      'menu_token_link_uuid' => 'menutoken/56c7707fb99ef',
-      'identifier' => 'menu-transparencia-segundo-nivel_marco-legal:marco-legal',
+      'identifier' => 'menu-transparencia-segundo-nivel_marco-legal:transparencia/marco-legal',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -915,13 +932,17 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
   );
-  // Exported menu link: menu-transparencia-segundo-nivel_organizacin:organizacion.
-  $menu_links['menu-transparencia-segundo-nivel_organizacin:organizacion'] = array(
+  // Exported menu link: menu-transparencia-segundo-nivel_organizacin:transparencia/organizacion.
+  $menu_links['menu-transparencia-segundo-nivel_organizacin:transparencia/organizacion'] = array(
     'menu_name' => 'menu-transparencia-segundo-nivel',
-    'link_path' => 'organizacion',
-    'router_path' => 'organizacion',
+    'link_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia/organizacion',
     'link_title' => 'Organización',
     'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/organizacion
+transparencia/organizacion/*',
+      ),
       'attributes' => array(),
       'item_attributes' => array(
         'data-inner-width' => '',
@@ -930,7 +951,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'menu-transparencia-segundo-nivel_organizacin:organizacion',
+      'identifier' => 'menu-transparencia-segundo-nivel_organizacin:transparencia/organizacion',
     ),
     'module' => 'menu',
     'hidden' => 0,
