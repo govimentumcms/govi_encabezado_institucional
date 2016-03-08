@@ -19,6 +19,7 @@ function govi_encabezado_institucional_context_default_contexts() {
   $context->conditions = array(
     'node' => array(
       'values' => array(
+        'contratacion' => 'contratacion',
         'marco_legal' => 'marco_legal',
         'organizacion' => 'organizacion',
       ),
@@ -32,6 +33,8 @@ function govi_encabezado_institucional_context_default_contexts() {
         'transparencia/marco-legal' => 'transparencia/marco-legal',
         'transparencia/organizacion/*' => 'transparencia/organizacion/*',
         'transparencia/organizacion' => 'transparencia/organizacion',
+        'transparencia/contratacion/*' => 'transparencia/contratacion/*',
+        'transparencia/contratacion' => 'transparencia/contratacion',
       ),
     ),
   );

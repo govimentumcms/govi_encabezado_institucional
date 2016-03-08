@@ -37,32 +37,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_concurso-de-mritos:<front>.
-  $menu_links['main-menu_concurso-de-mritos:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Concurso de méritos',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_concurso-de-mritos:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_contratacin:<front>',
-  );
   // Exported menu link: main-menu_contacto:<front>.
   $menu_links['main-menu_contacto:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -89,58 +63,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
     'customized' => 1,
-  );
-  // Exported menu link: main-menu_contratacin-directa:<front>.
-  $menu_links['main-menu_contratacin-directa:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Contratación Directa',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_contratacin-directa:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_contratacin:<front>',
-  );
-  // Exported menu link: main-menu_contratacin:<front>.
-  $menu_links['main-menu_contratacin:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Contratación',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_contratacin:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 1,
-    'expanded' => 1,
-    'weight' => -46,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:node/1',
   );
   // Exported menu link: main-menu_directorio-de-funcionarios:transparencia/organizacion/directorio-funcionarios.
   $menu_links['main-menu_directorio-de-funcionarios:transparencia/organizacion/directorio-funcionarios'] = array(
@@ -335,32 +257,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_licitacin-pblica:<front>.
-  $menu_links['main-menu_licitacin-pblica:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Licitación pública',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_licitacin-pblica:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_contratacin:<front>',
-  );
   // Exported menu link: main-menu_lineamientos:transparencia/marco-legal/lineamientos.
   $menu_links['main-menu_lineamientos:transparencia/marco-legal/lineamientos'] = array(
     'menu_name' => 'main-menu',
@@ -473,32 +369,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
     'parent_identifier' => 'main-menu_organizacin:transparencia/organizacion',
-  );
-  // Exported menu link: main-menu_mnima-cuanta:<front>.
-  $menu_links['main-menu_mnima-cuanta:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Mínima CuantÍa',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_mnima-cuanta:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -46,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_contratacin:<front>',
   );
   // Exported menu link: main-menu_normatividad:transparencia/marco-legal/normatividad.
   $menu_links['main-menu_normatividad:transparencia/marco-legal/normatividad'] = array(
@@ -692,32 +562,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_gestin-institucional:<front>',
   );
-  // Exported menu link: main-menu_seleccin-abreviada:<front>.
-  $menu_links['main-menu_seleccin-abreviada:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Selección Abreviada',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_seleccin-abreviada:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_contratacin:<front>',
-  );
   // Exported menu link: main-menu_transparencia:node/1.
   $menu_links['main-menu_transparencia:node/1'] = array(
     'menu_name' => 'main-menu',
@@ -808,37 +652,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => 0,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-transparencia-segundo-nivel_contratacin:menutoken/56c73a5754c38.
-  $menu_links['menu-transparencia-segundo-nivel_contratacin:menutoken/56c73a5754c38'] = array(
-    'menu_name' => 'menu-transparencia-segundo-nivel',
-    'link_path' => 'menutoken/56c73a5754c38',
-    'router_path' => 'menutoken/%',
-    'link_title' => 'Contratación',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'menu_token_link_path' => '[site:url]contratacion',
-      'menu_token_data' => array(),
-      'menu_token_options' => array(
-        'clear' => 0,
-      ),
-      'alter' => TRUE,
-      'identifier' => 'menu-transparencia-segundo-nivel_contratacin:menutoken/56c73a5754c38',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_gestin-institucional:menutoken/56c7354256ad9.
@@ -965,10 +778,7 @@ transparencia/organizacion/*',
   // Translatables
   // Included for use with string extractors like potx.
   t('Atención al Ciudadano');
-  t('Concurso de méritos');
   t('Contacto');
-  t('Contratación');
-  t('Contratación Directa');
   t('Contáctenos');
   t('Directorio de Funcionarios');
   t('Estados Financieros');
@@ -977,12 +787,10 @@ transparencia/organizacion/*',
   t('Gestión Institucional');
   t('Información Financiera y Contable');
   t('Inicio');
-  t('Licitación pública');
   t('Lineamientos');
   t('Marco Legal');
   t('Mecanismos de Supervición Notificación y Vigilancia');
   t('Misión');
-  t('Mínima CuantÍa');
   t('Normatividad');
   t('Noticias');
   t('Organigrama');
@@ -990,7 +798,6 @@ transparencia/organizacion/*',
   t('Planes');
   t('Programas y Proyectos');
   t('Redición de Cuentas');
-  t('Selección Abreviada');
   t('Transparencia');
   t('Visión');
 
