@@ -37,6 +37,32 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_concurso-de-mritos:<front>.
+  $menu_links['main-menu_concurso-de-mritos:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Concurso de méritos',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_concurso-de-mritos:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_contratacin:<front>',
+  );
   // Exported menu link: main-menu_contacto:<front>.
   $menu_links['main-menu_contacto:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -64,16 +90,13 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_contratacin:transparencia/contratacion.
-  $menu_links['main-menu_contratacin:transparencia/contratacion'] = array(
+  // Exported menu link: main-menu_contratacin-directa:<front>.
+  $menu_links['main-menu_contratacin-directa:<front>'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'transparencia/contratacion',
-    'router_path' => 'transparencia/contratacion',
-    'link_title' => 'Contratación',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Contratación Directa',
     'options' => array(
-      'cami' => array(
-        'pages' => 'transparencia/contratacion',
-      ),
       'attributes' => array(),
       'item_attributes' => array(
         'data-inner-width' => '',
@@ -82,11 +105,37 @@ function govi_encabezado_institucional_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_contratacin:transparencia/contratacion',
+      'identifier' => 'main-menu_contratacin-directa:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_contratacin:<front>',
+  );
+  // Exported menu link: main-menu_contratacin:<front>.
+  $menu_links['main-menu_contratacin:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Contratación',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_contratacin:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
     'has_children' => 1,
     'expanded' => 1,
     'weight' => -46,
@@ -122,36 +171,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_organizacin:transparencia/organizacion',
   );
-  // Exported menu link: main-menu_ejecucin-de-contratos:transparencia/contratacion/ejecucion_contratos.
-  $menu_links['main-menu_ejecucin-de-contratos:transparencia/contratacion/ejecucion_contratos'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'transparencia/contratacion/ejecucion_contratos',
-    'router_path' => 'transparencia/contratacion',
-    'link_title' => 'Ejecución de Contratos',
-    'options' => array(
-      'cami' => array(
-        'pages' => 'transparencia/contratacion/ejecucion_contratos
-transparencia/contratacion/ejecucion_contratos/*',
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_ejecucin-de-contratos:transparencia/contratacion/ejecucion_contratos',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_contratacin:transparencia/contratacion',
-  );
   // Exported menu link: main-menu_estados-financieros:<front>.
   $menu_links['main-menu_estados-financieros:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -181,32 +200,6 @@ transparencia/contratacion/ejecucion_contratos/*',
     'customized' => 1,
     'parent_identifier' => 'main-menu_informacin-financiera-y-contable:<front>',
   );
-  // Exported menu link: main-menu_estrategias-planes-e-informes:<front>.
-  $menu_links['main-menu_estrategias-planes-e-informes:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Estrategias, planes e informes',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_estrategias-planes-e-informes:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_gestin-institucional:<front>',
-  );
   // Exported menu link: main-menu_eventos:calendario/ano.
   $menu_links['main-menu_eventos:calendario/ano'] = array(
     'menu_name' => 'main-menu',
@@ -233,62 +226,6 @@ transparencia/contratacion/ejecucion_contratos/*',
     'expanded' => 0,
     'weight' => -47,
     'customized' => 1,
-  );
-  // Exported menu link: main-menu_gestin-institucional:<front>.
-  $menu_links['main-menu_gestin-institucional:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Gestión Institucional',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_gestin-institucional:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 1,
-    'expanded' => 1,
-    'weight' => -48,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:node/1',
-  );
-  // Exported menu link: main-menu_informacin-contractual:transparencia/contratacion/informacion_contractual.
-  $menu_links['main-menu_informacin-contractual:transparencia/contratacion/informacion_contractual'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'transparencia/contratacion/informacion_contractual',
-    'router_path' => 'transparencia/contratacion/informacion_contractual',
-    'link_title' => 'Información Contractual',
-    'options' => array(
-      'cami' => array(
-        'pages' => 'transparencia/contratacion/informacion_contractual
-transparencia/contratacion/informacion_contractual/*',
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_informacin-contractual:transparencia/contratacion/informacion_contractual',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_contratacin:transparencia/contratacion',
   );
   // Exported menu link: main-menu_informacin-financiera-y-contable:<front>.
   $menu_links['main-menu_informacin-financiera-y-contable:<front>'] = array(
@@ -319,6 +256,35 @@ transparencia/contratacion/informacion_contractual/*',
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:node/1',
   );
+  // Exported menu link: main-menu_informes-de-empalme:transparencia/planeacion/informes-empalme.
+  $menu_links['main-menu_informes-de-empalme:transparencia/planeacion/informes-empalme'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/planeacion/informes-empalme',
+    'router_path' => 'transparencia/planeacion/informes-empalme',
+    'link_title' => 'Informes de empalme',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_informes-de-empalme:transparencia/planeacion/informes-empalme',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_planeacin:transparencia/planeacion',
+  );
   // Exported menu link: main-menu_inicio:<front>.
   $menu_links['main-menu_inicio:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -345,6 +311,32 @@ transparencia/contratacion/informacion_contractual/*',
     'expanded' => 0,
     'weight' => -50,
     'customized' => 1,
+  );
+  // Exported menu link: main-menu_licitacin-pblica:<front>.
+  $menu_links['main-menu_licitacin-pblica:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Licitación pública',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_licitacin-pblica:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_contratacin:<front>',
   );
   // Exported menu link: main-menu_lineamientos:transparencia/marco-legal/lineamientos.
   $menu_links['main-menu_lineamientos:transparencia/marco-legal/lineamientos'] = array(
@@ -375,36 +367,6 @@ transparencia/contratacion/informacion_contractual/*',
     'customized' => 1,
     'parent_identifier' => 'main-menu_marco-legal:transparencia/marco-legal',
   );
-  // Exported menu link: main-menu_manual-de-contratacin:transparencia/contratacion/manual_contratacion.
-  $menu_links['main-menu_manual-de-contratacin:transparencia/contratacion/manual_contratacion'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'transparencia/contratacion/manual_contratacion',
-    'router_path' => 'transparencia/contratacion',
-    'link_title' => 'Manual de contratación',
-    'options' => array(
-      'cami' => array(
-        'pages' => 'transparencia/contratacion/manual_contratacion
-transparencia/contratacion/manual_contratacion/*',
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_manual-de-contratacin:transparencia/contratacion/manual_contratacion',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_contratacin:transparencia/contratacion',
-  );
   // Exported menu link: main-menu_marco-legal:transparencia/marco-legal.
   $menu_links['main-menu_marco-legal:transparencia/marco-legal'] = array(
     'menu_name' => 'main-menu',
@@ -434,13 +396,16 @@ transparencia/contratacion/manual_contratacion/*',
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:node/1',
   );
-  // Exported menu link: main-menu_mecanismos-de-supervicin-notificacin-y-vigilancia:<front>.
-  $menu_links['main-menu_mecanismos-de-supervicin-notificacin-y-vigilancia:<front>'] = array(
+  // Exported menu link: main-menu_metas-objetivos-e-indicadores:transparencia/planeacion/metas-objetivos-indicadores.
+  $menu_links['main-menu_metas-objetivos-e-indicadores:transparencia/planeacion/metas-objetivos-indicadores'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Mecanismos de Supervición Notificación y Vigilancia',
+    'link_path' => 'transparencia/planeacion/metas-objetivos-indicadores',
+    'router_path' => 'transparencia/planeacion/metas-objetivos-indicadores',
+    'link_title' => 'Metas, objetivos e indicadores',
     'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
       'attributes' => array(),
       'item_attributes' => array(
         'data-inner-width' => '',
@@ -449,16 +414,16 @@ transparencia/contratacion/manual_contratacion/*',
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_mecanismos-de-supervicin-notificacin-y-vigilancia:<front>',
+      'identifier' => 'main-menu_metas-objetivos-e-indicadores:transparencia/planeacion/metas-objetivos-indicadores',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => -48,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_gestin-institucional:<front>',
+    'parent_identifier' => 'main-menu_planeacin:transparencia/planeacion',
   );
   // Exported menu link: main-menu_misin:transparencia/organizacion.
   $menu_links['main-menu_misin:transparencia/organizacion'] = array(
@@ -488,6 +453,32 @@ transparencia/contratacion/manual_contratacion/*',
     'weight' => -50,
     'customized' => 1,
     'parent_identifier' => 'main-menu_organizacin:transparencia/organizacion',
+  );
+  // Exported menu link: main-menu_mnima-cuanta:<front>.
+  $menu_links['main-menu_mnima-cuanta:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Mínima CuantÍa',
+    'options' => array(
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_mnima-cuanta:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_contratacin:<front>',
   );
   // Exported menu link: main-menu_normatividad:transparencia/marco-legal/normatividad.
   $menu_links['main-menu_normatividad:transparencia/marco-legal/normatividad'] = array(
@@ -603,16 +594,15 @@ transparencia/contratacion/manual_contratacion/*',
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:node/1',
   );
-  // Exported menu link: main-menu_plan-anual-de-contrataciones:transparencia/contratacion/plan_anual_contrataciones.
-  $menu_links['main-menu_plan-anual-de-contrataciones:transparencia/contratacion/plan_anual_contrataciones'] = array(
+  // Exported menu link: main-menu_participacin-ciudadana:transparencia/planeacion/participacion-ciudadana.
+  $menu_links['main-menu_participacin-ciudadana:transparencia/planeacion/participacion-ciudadana'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'transparencia/contratacion/plan_anual_contrataciones',
-    'router_path' => 'transparencia/contratacion',
-    'link_title' => 'Plan anual de contrataciones',
+    'link_path' => 'transparencia/planeacion/participacion-ciudadana',
+    'router_path' => 'transparencia/planeacion/participacion-ciudadana',
+    'link_title' => 'Participación Ciudadana',
     'options' => array(
       'cami' => array(
-        'pages' => 'transparencia/contratacion/plan_anual_contrataciones
-transparencia/contratacion/plan_anual_contrataciones/*',
+        'pages' => '',
       ),
       'attributes' => array(),
       'item_attributes' => array(
@@ -622,23 +612,110 @@ transparencia/contratacion/plan_anual_contrataciones/*',
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_plan-anual-de-contrataciones:transparencia/contratacion/plan_anual_contrataciones',
+      'identifier' => 'main-menu_participacin-ciudadana:transparencia/planeacion/participacion-ciudadana',
     ),
     'module' => 'menu',
     'hidden' => 0,
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
+    'weight' => -47,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_planeacin:transparencia/planeacion',
+  );
+  // Exported menu link: main-menu_planeacin:transparencia/planeacion.
+  $menu_links['main-menu_planeacin:transparencia/planeacion'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/planeacion',
+    'router_path' => 'transparencia/planeacion',
+    'link_title' => 'Planeación',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_planeacin:transparencia/planeacion',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
     'weight' => -48,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_contratacin:transparencia/contratacion',
+    'parent_identifier' => 'main-menu_transparencia:node/1',
   );
-  // Exported menu link: main-menu_planes:<front>.
-  $menu_links['main-menu_planes:<front>'] = array(
+  // Exported menu link: main-menu_planes:transparencia/planeacion/planes.
+  $menu_links['main-menu_planes:transparencia/planeacion/planes'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/planeacion/planes',
+    'router_path' => 'transparencia/planeacion/planes',
+    'link_title' => 'Planes',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_planes:transparencia/planeacion/planes',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_planeacin:transparencia/planeacion',
+  );
+  // Exported menu link: main-menu_programas-y-proyectos:transparencia/planeacion/programas-proyectos.
+  $menu_links['main-menu_programas-y-proyectos:transparencia/planeacion/programas-proyectos'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/planeacion/programas-proyectos',
+    'router_path' => 'transparencia/planeacion/programas-proyectos',
+    'link_title' => 'Programas y Proyectos',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_programas-y-proyectos:transparencia/planeacion/programas-proyectos',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_planeacin:transparencia/planeacion',
+  );
+  // Exported menu link: main-menu_seleccin-abreviada:<front>.
+  $menu_links['main-menu_seleccin-abreviada:<front>'] = array(
     'menu_name' => 'main-menu',
     'link_path' => '<front>',
     'router_path' => '',
-    'link_title' => 'Planes',
+    'link_title' => 'Selección Abreviada',
     'options' => array(
       'attributes' => array(),
       'item_attributes' => array(
@@ -648,7 +725,7 @@ transparencia/contratacion/plan_anual_contrataciones/*',
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_planes:<front>',
+      'identifier' => 'main-menu_seleccin-abreviada:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -657,59 +734,7 @@ transparencia/contratacion/plan_anual_contrataciones/*',
     'expanded' => 0,
     'weight' => -49,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_gestin-institucional:<front>',
-  );
-  // Exported menu link: main-menu_programas-y-proyectos:<front>.
-  $menu_links['main-menu_programas-y-proyectos:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Programas y Proyectos',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_programas-y-proyectos:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_gestin-institucional:<front>',
-  );
-  // Exported menu link: main-menu_redicin-de-cuentas:<front>.
-  $menu_links['main-menu_redicin-de-cuentas:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Redición de Cuentas',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_redicin-de-cuentas:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_gestin-institucional:<front>',
+    'parent_identifier' => 'main-menu_contratacin:<front>',
   );
   // Exported menu link: main-menu_transparencia:node/1.
   $menu_links['main-menu_transparencia:node/1'] = array(
@@ -803,18 +828,13 @@ transparencia/contratacion/plan_anual_contrataciones/*',
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-transparencia-segundo-nivel_contratacin:transparencia/contratacion.
-  $menu_links['menu-transparencia-segundo-nivel_contratacin:transparencia/contratacion'] = array(
+  // Exported menu link: menu-transparencia-segundo-nivel_contratacin:menutoken/56c73a5754c38.
+  $menu_links['menu-transparencia-segundo-nivel_contratacin:menutoken/56c73a5754c38'] = array(
     'menu_name' => 'menu-transparencia-segundo-nivel',
-    'link_path' => 'transparencia/contratacion',
-    'router_path' => 'transparencia/contratacion',
+    'link_path' => 'menutoken/56c73a5754c38',
+    'router_path' => 'menutoken/%',
     'link_title' => 'Contratación',
     'options' => array(
-      'cami' => array(
-        'pages' => 'transparencia/contratacion
-transparencia/contratacion/*
-',
-      ),
       'attributes' => array(),
       'item_attributes' => array(
         'data-inner-width' => '',
@@ -823,9 +843,13 @@ transparencia/contratacion/*
         'class' => '',
         'style' => '',
       ),
+      'menu_token_link_path' => '[site:url]contratacion',
+      'menu_token_data' => array(),
+      'menu_token_options' => array(
+        'clear' => 0,
+      ),
       'alter' => TRUE,
-      'identifier' => 'menu-transparencia-segundo-nivel_contratacin:transparencia/contratacion',
-      'menu_token_link_uuid' => 'menutoken/56c73a5754c38',
+      'identifier' => 'menu-transparencia-segundo-nivel_contratacin:menutoken/56c73a5754c38',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -833,37 +857,6 @@ transparencia/contratacion/*
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -47,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-transparencia-segundo-nivel_gestin-institucional:menutoken/56c7354256ad9.
-  $menu_links['menu-transparencia-segundo-nivel_gestin-institucional:menutoken/56c7354256ad9'] = array(
-    'menu_name' => 'menu-transparencia-segundo-nivel',
-    'link_path' => 'menutoken/56c7354256ad9',
-    'router_path' => 'menutoken/%',
-    'link_title' => 'Gestión Institucional',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'menu_token_link_path' => '[site:url]gestion-institucional/*',
-      'menu_token_data' => array(),
-      'menu_token_options' => array(
-        'clear' => 0,
-      ),
-      'alter' => TRUE,
-      'identifier' => 'menu-transparencia-segundo-nivel_gestin-institucional:menutoken/56c7354256ad9',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_informacin-financiera-y-contable:menutoken/56c73803dac15.
@@ -955,35 +948,67 @@ transparencia/organizacion/*',
     'weight' => -50,
     'customized' => 1,
   );
+  // Exported menu link: menu-transparencia-segundo-nivel_planeacin:transparencia/planeacion.
+  $menu_links['menu-transparencia-segundo-nivel_planeacin:transparencia/planeacion'] = array(
+    'menu_name' => 'menu-transparencia-segundo-nivel',
+    'link_path' => 'transparencia/planeacion',
+    'router_path' => 'transparencia/planeacion',
+    'link_title' => 'Planeación',
+    'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/planeacion
+transparencia/planeacion/*',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'alter' => TRUE,
+      'identifier' => 'menu-transparencia-segundo-nivel_planeacin:transparencia/planeacion',
+      'menu_token_link_uuid' => 'menutoken/56c7354256ad9',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+  );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('Atención al Ciudadano');
+  t('Concurso de méritos');
   t('Contacto');
   t('Contratación');
+  t('Contratación Directa');
   t('Contáctenos');
   t('Directorio de Funcionarios');
-  t('Ejecución de Contratos');
   t('Estados Financieros');
-  t('Estrategias, planes e informes');
   t('Eventos');
-  t('Gestión Institucional');
-  t('Información Contractual');
   t('Información Financiera y Contable');
+  t('Informes de empalme');
   t('Inicio');
+  t('Licitación pública');
   t('Lineamientos');
-  t('Manual de contratación');
   t('Marco Legal');
-  t('Mecanismos de Supervición Notificación y Vigilancia');
+  t('Metas, objetivos e indicadores');
   t('Misión');
+  t('Mínima CuantÍa');
   t('Normatividad');
   t('Noticias');
   t('Organigrama');
   t('Organización');
-  t('Plan anual de contrataciones');
+  t('Participación Ciudadana');
+  t('Planeación');
   t('Planes');
   t('Programas y Proyectos');
-  t('Redición de Cuentas');
+  t('Selección Abreviada');
   t('Transparencia');
   t('Visión');
 
