@@ -171,12 +171,12 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_organizacin:transparencia/organizacion',
   );
-  // Exported menu link: main-menu_estados-financieros:<front>.
-  $menu_links['main-menu_estados-financieros:<front>'] = array(
+  // Exported menu link: main-menu_ejecucin-presupuestal:transparencia/presupuesto/ejecucion-presupuestal.
+  $menu_links['main-menu_ejecucin-presupuestal:transparencia/presupuesto/ejecucion-presupuestal'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Estados Financieros',
+    'link_path' => 'transparencia/presupuesto/ejecucion-presupuestal',
+    'router_path' => 'transparencia/presupuesto/ejecucion-presupuestal',
+    'link_title' => 'Ejecución presupuestal',
     'options' => array(
       'cami' => array(
         'pages' => '',
@@ -189,16 +189,45 @@ function govi_encabezado_institucional_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_estados-financieros:<front>',
+      'identifier' => 'main-menu_ejecucin-presupuestal:transparencia/presupuesto/ejecucion-presupuestal',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -49,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_informacin-financiera-y-contable:<front>',
+    'parent_identifier' => 'main-menu_presupuesto:transparencia/presupuesto',
+  );
+  // Exported menu link: main-menu_estados-financieros:transparencia/presupuesto/estados-financieros.
+  $menu_links['main-menu_estados-financieros:transparencia/presupuesto/estados-financieros'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/presupuesto/estados-financieros',
+    'router_path' => 'transparencia/presupuesto/estados-financieros',
+    'link_title' => 'Estados financieros',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_estados-financieros:transparencia/presupuesto/estados-financieros',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_presupuesto:transparencia/presupuesto',
   );
   // Exported menu link: main-menu_eventos:calendario/ano.
   $menu_links['main-menu_eventos:calendario/ano'] = array(
@@ -226,35 +255,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -47,
     'customized' => 1,
-  );
-  // Exported menu link: main-menu_informacin-financiera-y-contable:<front>.
-  $menu_links['main-menu_informacin-financiera-y-contable:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Información Financiera y Contable',
-    'options' => array(
-      'cami' => array(
-        'pages' => '',
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_informacin-financiera-y-contable:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 1,
-    'expanded' => 1,
-    'weight' => -47,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:node/1',
   );
   // Exported menu link: main-menu_informes-de-empalme:transparencia/planeacion/informes-empalme.
   $menu_links['main-menu_informes-de-empalme:transparencia/planeacion/informes-empalme'] = array(
@@ -681,6 +681,64 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_planeacin:transparencia/planeacion',
   );
+  // Exported menu link: main-menu_presupuesto-general:transparencia/presupuesto/general.
+  $menu_links['main-menu_presupuesto-general:transparencia/presupuesto/general'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/presupuesto/general',
+    'router_path' => 'transparencia/presupuesto/general',
+    'link_title' => 'Presupuesto general',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_presupuesto-general:transparencia/presupuesto/general',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_presupuesto:transparencia/presupuesto',
+  );
+  // Exported menu link: main-menu_presupuesto:transparencia/presupuesto.
+  $menu_links['main-menu_presupuesto:transparencia/presupuesto'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/presupuesto',
+    'router_path' => 'transparencia/presupuesto',
+    'link_title' => 'Presupuesto',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_presupuesto:transparencia/presupuesto',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -47,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_transparencia:node/1',
+  );
   // Exported menu link: main-menu_programas-y-proyectos:transparencia/planeacion/programas-proyectos.
   $menu_links['main-menu_programas-y-proyectos:transparencia/planeacion/programas-proyectos'] = array(
     'menu_name' => 'main-menu',
@@ -828,13 +886,19 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => 0,
     'customized' => 1,
   );
-  // Exported menu link: menu-transparencia-segundo-nivel_contratacin:menutoken/56c73a5754c38.
-  $menu_links['menu-transparencia-segundo-nivel_contratacin:menutoken/56c73a5754c38'] = array(
+  // Exported menu link: menu-transparencia-segundo-nivel_contratacin:transparencia/contratacion.
+  $menu_links['menu-transparencia-segundo-nivel_contratacin:transparencia/contratacion'] = array(
     'menu_name' => 'menu-transparencia-segundo-nivel',
-    'link_path' => 'menutoken/56c73a5754c38',
-    'router_path' => 'menutoken/%',
+    'link_path' => 'transparencia/contratacion',
+    'router_path' => 'transparencia/contratacion',
     'link_title' => 'Contratación',
     'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/contratacion
+transparencia/contratacion/*
+transparencia/contratación
+transparencia/contratación/',
+      ),
       'attributes' => array(),
       'item_attributes' => array(
         'data-inner-width' => '',
@@ -843,13 +907,9 @@ function govi_encabezado_institucional_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'menu_token_link_path' => '[site:url]contratacion',
-      'menu_token_data' => array(),
-      'menu_token_options' => array(
-        'clear' => 0,
-      ),
       'alter' => TRUE,
-      'identifier' => 'menu-transparencia-segundo-nivel_contratacin:menutoken/56c73a5754c38',
+      'identifier' => 'menu-transparencia-segundo-nivel_contratacin:transparencia/contratacion',
+      'menu_token_link_uuid' => 'menutoken/56c73a5754c38',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -857,37 +917,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -47,
-    'customized' => 1,
-  );
-  // Exported menu link: menu-transparencia-segundo-nivel_informacin-financiera-y-contable:menutoken/56c73803dac15.
-  $menu_links['menu-transparencia-segundo-nivel_informacin-financiera-y-contable:menutoken/56c73803dac15'] = array(
-    'menu_name' => 'menu-transparencia-segundo-nivel',
-    'link_path' => 'menutoken/56c73803dac15',
-    'router_path' => 'menutoken/%',
-    'link_title' => 'Información Financiera y Contable',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'menu_token_link_path' => '[site:url]/informacion-financiera-contable',
-      'menu_token_data' => array(),
-      'menu_token_options' => array(
-        'clear' => 0,
-      ),
-      'alter' => TRUE,
-      'identifier' => 'menu-transparencia-segundo-nivel_informacin-financiera-y-contable:menutoken/56c73803dac15',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -46,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_marco-legal:transparencia/marco-legal.
@@ -979,6 +1008,37 @@ transparencia/planeacion/*',
     'weight' => -48,
     'customized' => 1,
   );
+  // Exported menu link: menu-transparencia-segundo-nivel_presupuesto:transparencia/presupuesto.
+  $menu_links['menu-transparencia-segundo-nivel_presupuesto:transparencia/presupuesto'] = array(
+    'menu_name' => 'menu-transparencia-segundo-nivel',
+    'link_path' => 'transparencia/presupuesto',
+    'router_path' => 'transparencia/presupuesto',
+    'link_title' => 'Presupuesto',
+    'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/presupuesto/
+transparencia/presupuesto/*',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'alter' => TRUE,
+      'identifier' => 'menu-transparencia-segundo-nivel_presupuesto:transparencia/presupuesto',
+      'menu_token_link_uuid' => 'menutoken/56c73803dac15',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -46,
+    'customized' => 1,
+  );
 
   // Translatables
   // Included for use with string extractors like potx.
@@ -989,9 +1049,9 @@ transparencia/planeacion/*',
   t('Contratación Directa');
   t('Contáctenos');
   t('Directorio de Funcionarios');
-  t('Estados Financieros');
+  t('Ejecución presupuestal');
+  t('Estados financieros');
   t('Eventos');
-  t('Información Financiera y Contable');
   t('Informes de empalme');
   t('Inicio');
   t('Licitación pública');
@@ -1007,6 +1067,8 @@ transparencia/planeacion/*',
   t('Participación Ciudadana');
   t('Planeación');
   t('Planes');
+  t('Presupuesto');
+  t('Presupuesto general');
   t('Programas y Proyectos');
   t('Selección Abreviada');
   t('Transparencia');

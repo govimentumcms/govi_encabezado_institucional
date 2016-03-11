@@ -19,9 +19,12 @@ function govi_encabezado_institucional_context_default_contexts() {
   $context->conditions = array(
     'node' => array(
       'values' => array(
+        'contratacion' => 'contratacion',
+        'directorio_funcionarios' => 'directorio_funcionarios',
         'marco_legal' => 'marco_legal',
         'organizacion' => 'organizacion',
         'planeacion' => 'planeacion',
+        'presupuesto' => 'presupuesto',
       ),
       'options' => array(
         'node_form' => '1',
@@ -35,6 +38,10 @@ function govi_encabezado_institucional_context_default_contexts() {
         'transparencia/organizacion' => 'transparencia/organizacion',
         'transparencia/planeacion/*' => 'transparencia/planeacion/*',
         'transparencia/planeacion' => 'transparencia/planeacion',
+        'transparencia/contratacion/*' => 'transparencia/contratacion/*',
+        'transparencia/contratacion' => 'transparencia/contratacion',
+        'transparencia/presupuesto/*' => 'transparencia/presupuesto/*',
+        'transparencia/presupuesto' => 'transparencia/presupuesto',
       ),
     ),
   );
