@@ -37,32 +37,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -46,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_concurso-de-mritos:<front>.
-  $menu_links['main-menu_concurso-de-mritos:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Concurso de méritos',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_concurso-de-mritos:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -48,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_contratacin:<front>',
-  );
   // Exported menu link: main-menu_contacto:<front>.
   $menu_links['main-menu_contacto:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -89,32 +63,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => 0,
     'customized' => 1,
-  );
-  // Exported menu link: main-menu_contratacin-directa:<front>.
-  $menu_links['main-menu_contratacin-directa:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Contratación Directa',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_contratacin-directa:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -47,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_contratacin:<front>',
   );
   // Exported menu link: main-menu_contratacin:<front>.
   $menu_links['main-menu_contratacin:<front>'] = array(
@@ -170,6 +118,35 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
     'parent_identifier' => 'main-menu_organizacin:transparencia/organizacion',
+  );
+  // Exported menu link: main-menu_ejecucin-de-contratos:transparencia/contratacion/ejecucion_contratos.
+  $menu_links['main-menu_ejecucin-de-contratos:transparencia/contratacion/ejecucion_contratos'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/contratacion/ejecucion_contratos',
+    'router_path' => 'transparencia/contratacion/ejecucion_contratos',
+    'link_title' => 'Ejecución de contratos',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_ejecucin-de-contratos:transparencia/contratacion/ejecucion_contratos',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_contratacin:<front>',
   );
   // Exported menu link: main-menu_ejecucin-presupuestal:transparencia/presupuesto/ejecucion-presupuestal.
   $menu_links['main-menu_ejecucin-presupuestal:transparencia/presupuesto/ejecucion-presupuestal'] = array(
@@ -256,6 +233,35 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_informacin-contractual:transparencia/contratacion/informacion_contractual.
+  $menu_links['main-menu_informacin-contractual:transparencia/contratacion/informacion_contractual'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/contratacion/informacion_contractual',
+    'router_path' => 'transparencia/contratacion/informacion_contractual',
+    'link_title' => 'Información contractual',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_informacin-contractual:transparencia/contratacion/informacion_contractual',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_contratacin:<front>',
+  );
   // Exported menu link: main-menu_informes-de-empalme:transparencia/planeacion/informes-empalme.
   $menu_links['main-menu_informes-de-empalme:transparencia/planeacion/informes-empalme'] = array(
     'menu_name' => 'main-menu',
@@ -312,32 +318,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_licitacin-pblica:<front>.
-  $menu_links['main-menu_licitacin-pblica:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Licitación pública',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_licitacin-pblica:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_contratacin:<front>',
-  );
   // Exported menu link: main-menu_lineamientos:transparencia/marco-legal/lineamientos.
   $menu_links['main-menu_lineamientos:transparencia/marco-legal/lineamientos'] = array(
     'menu_name' => 'main-menu',
@@ -366,6 +346,35 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
     'parent_identifier' => 'main-menu_marco-legal:transparencia/marco-legal',
+  );
+  // Exported menu link: main-menu_manual-de-contrataciones:transparencia/contratacion/manual_contrataciones.
+  $menu_links['main-menu_manual-de-contrataciones:transparencia/contratacion/manual_contrataciones'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/contratacion/manual_contrataciones',
+    'router_path' => 'transparencia/contratacion/manual_contrataciones',
+    'link_title' => 'Manual de contrataciones',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_manual-de-contrataciones:transparencia/contratacion/manual_contrataciones',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_contratacin:<front>',
   );
   // Exported menu link: main-menu_marco-legal:transparencia/marco-legal.
   $menu_links['main-menu_marco-legal:transparencia/marco-legal'] = array(
@@ -453,32 +462,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -50,
     'customized' => 1,
     'parent_identifier' => 'main-menu_organizacin:transparencia/organizacion',
-  );
-  // Exported menu link: main-menu_mnima-cuanta:<front>.
-  $menu_links['main-menu_mnima-cuanta:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Mínima CuantÍa',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_mnima-cuanta:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -46,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_contratacin:<front>',
   );
   // Exported menu link: main-menu_normatividad:transparencia/marco-legal/normatividad.
   $menu_links['main-menu_normatividad:transparencia/marco-legal/normatividad'] = array(
@@ -622,6 +605,35 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
     'parent_identifier' => 'main-menu_planeacin:transparencia/planeacion',
+  );
+  // Exported menu link: main-menu_plan-anual-de-adquisiciones:transparencia/contratacion/plan-anual-adquisiciones.
+  $menu_links['main-menu_plan-anual-de-adquisiciones:transparencia/contratacion/plan-anual-adquisiciones'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/contratacion/plan-anual-adquisiciones',
+    'router_path' => 'transparencia/contratacion/plan-anual-adquisiciones',
+    'link_title' => 'Plan anual de adquisiciones',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_plan-anual-de-adquisiciones:transparencia/contratacion/plan-anual-adquisiciones',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_contratacin:<front>',
   );
   // Exported menu link: main-menu_planeacin:transparencia/planeacion.
   $menu_links['main-menu_planeacin:transparencia/planeacion'] = array(
@@ -767,32 +779,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -49,
     'customized' => 1,
     'parent_identifier' => 'main-menu_planeacin:transparencia/planeacion',
-  );
-  // Exported menu link: main-menu_seleccin-abreviada:<front>.
-  $menu_links['main-menu_seleccin-abreviada:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Selección Abreviada',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_seleccin-abreviada:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -49,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_contratacin:<front>',
   );
   // Exported menu link: main-menu_transparencia:node/1.
   $menu_links['main-menu_transparencia:node/1'] = array(
@@ -1043,34 +1029,33 @@ transparencia/presupuesto/*',
   // Translatables
   // Included for use with string extractors like potx.
   t('Atención al Ciudadano');
-  t('Concurso de méritos');
   t('Contacto');
   t('Contratación');
-  t('Contratación Directa');
   t('Contáctenos');
   t('Directorio de Funcionarios');
+  t('Ejecución de contratos');
   t('Ejecución presupuestal');
   t('Estados financieros');
   t('Eventos');
+  t('Información contractual');
   t('Informes de empalme');
   t('Inicio');
-  t('Licitación pública');
   t('Lineamientos');
+  t('Manual de contrataciones');
   t('Marco Legal');
   t('Metas, objetivos e indicadores');
   t('Misión');
-  t('Mínima CuantÍa');
   t('Normatividad');
   t('Noticias');
   t('Organigrama');
   t('Organización');
   t('Participación Ciudadana');
+  t('Plan anual de adquisiciones');
   t('Planeación');
   t('Planes');
   t('Presupuesto');
   t('Presupuesto general');
   t('Programas y Proyectos');
-  t('Selección Abreviada');
   t('Transparencia');
   t('Visión');
 
