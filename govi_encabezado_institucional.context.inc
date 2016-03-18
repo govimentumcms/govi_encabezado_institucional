@@ -21,6 +21,7 @@ function govi_encabezado_institucional_context_default_contexts() {
       'values' => array(
         'contratacion' => 'contratacion',
         'directorio_funcionarios' => 'directorio_funcionarios',
+        'instrumentos_gestion_informacion' => 'instrumentos_gestion_informacion',
         'marco_legal' => 'marco_legal',
         'organizacion' => 'organizacion',
         'planeacion' => 'planeacion',
@@ -42,6 +43,8 @@ function govi_encabezado_institucional_context_default_contexts() {
         'transparencia/contratacion' => 'transparencia/contratacion',
         'transparencia/presupuesto/*' => 'transparencia/presupuesto/*',
         'transparencia/presupuesto' => 'transparencia/presupuesto',
+        'transparencia/instrumentos-gestion-informacion-publica/*' => 'transparencia/instrumentos-gestion-informacion-publica/*',
+        'transparencia/instrumentos-gestion-informacion-publica' => 'transparencia/instrumentos-gestion-informacion-publica',
       ),
     ),
   );

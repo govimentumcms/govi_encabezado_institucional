@@ -233,6 +233,36 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -47,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_gestin-documental:transparencia/instrumentos-gestion-informacion-publica/gestion-documental.
+  $menu_links['main-menu_gestin-documental:transparencia/instrumentos-gestion-informacion-publica/gestion-documental'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/instrumentos-gestion-informacion-publica/gestion-documental',
+    'router_path' => 'transparencia/instrumentos-gestion-informacion-publica/gestion-documental',
+    'link_title' => 'Gestión documental',
+    'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/instrumentos-gestion-informacion-publica/gestion-documental
+transparencia/instrumentos-gestion-informacion-publica/gestion-documental/*',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_gestin-documental:transparencia/instrumentos-gestion-informacion-publica/gestion-documental',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_instrumentos-de-gestin-de-informacin-pblica:transparencia/instrumentos-gestion-informacion-publica',
+  );
   // Exported menu link: main-menu_informacin-contractual:transparencia/contratacion/informacion_contractual.
   $menu_links['main-menu_informacin-contractual:transparencia/contratacion/informacion_contractual'] = array(
     'menu_name' => 'main-menu',
@@ -261,6 +291,36 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -48,
     'customized' => 1,
     'parent_identifier' => 'main-menu_contratacin:<front>',
+  );
+  // Exported menu link: main-menu_informe-de-pqrs-y-denuncias:transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes.
+  $menu_links['main-menu_informe-de-pqrs-y-denuncias:transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes',
+    'router_path' => 'transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes',
+    'link_title' => 'Informe de PQRS y denuncias',
+    'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes
+transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes/*',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_informe-de-pqrs-y-denuncias:transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_instrumentos-de-gestin-de-informacin-pblica:transparencia/instrumentos-gestion-informacion-publica',
   );
   // Exported menu link: main-menu_informes-de-empalme:transparencia/planeacion/informes-empalme.
   $menu_links['main-menu_informes-de-empalme:transparencia/planeacion/informes-empalme'] = array(
@@ -317,6 +377,36 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -50,
     'customized' => 1,
+  );
+  // Exported menu link: main-menu_instrumentos-de-gestin-de-informacin-pblica:transparencia/instrumentos-gestion-informacion-publica.
+  $menu_links['main-menu_instrumentos-de-gestin-de-informacin-pblica:transparencia/instrumentos-gestion-informacion-publica'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/instrumentos-gestion-informacion-publica',
+    'router_path' => 'transparencia/instrumentos-gestion-informacion-publica',
+    'link_title' => 'Instrumentos de gestión de información pública',
+    'options' => array(
+      'cami' => array(
+        'pages' => '/transparencia/instrumentos-gestion-informacion-publica
+/transparencia/instrumentos-gestion-informacion-publica/*',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_instrumentos-de-gestin-de-informacin-pblica:transparencia/instrumentos-gestion-informacion-publica',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -45,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_transparencia:node/1',
   );
   // Exported menu link: main-menu_lineamientos:transparencia/marco-legal/lineamientos.
   $menu_links['main-menu_lineamientos:transparencia/marco-legal/lineamientos'] = array(
@@ -780,6 +870,36 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_planeacin:transparencia/planeacion',
   );
+  // Exported menu link: main-menu_relacionados-con-la-informacin:transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion.
+  $menu_links['main-menu_relacionados-con-la-informacin:transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion',
+    'router_path' => 'transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion',
+    'link_title' => 'Relacionados con la Información',
+    'options' => array(
+      'cami' => array(
+        'pages' => '/transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion
+/transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion/*',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_relacionados-con-la-informacin:transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_instrumentos-de-gestin-de-informacin-pblica:transparencia/instrumentos-gestion-informacion-publica',
+  );
   // Exported menu link: main-menu_transparencia:node/1.
   $menu_links['main-menu_transparencia:node/1'] = array(
     'menu_name' => 'main-menu',
@@ -903,6 +1023,35 @@ transparencia/contratación/',
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -47,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-transparencia-segundo-nivel_instrumentos-de-gestin-de-informacin:transparencia/instrumentos-gestion-informacion-publica/.
+  $menu_links['menu-transparencia-segundo-nivel_instrumentos-de-gestin-de-informacin:transparencia/instrumentos-gestion-informacion-publica/'] = array(
+    'menu_name' => 'menu-transparencia-segundo-nivel',
+    'link_path' => 'transparencia/instrumentos-gestion-informacion-publica/',
+    'router_path' => 'transparencia/instrumentos-gestion-informacion-publica',
+    'link_title' => 'Instrumentos de gestión de información',
+    'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/instrumentos-gestion-informacion-publica/*
+transparencia/instrumentos-gestion-informacion-publica',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-transparencia-segundo-nivel_instrumentos-de-gestin-de-informacin:transparencia/instrumentos-gestion-informacion-publica/',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_marco-legal:transparencia/marco-legal.
@@ -1037,9 +1186,13 @@ transparencia/presupuesto/*',
   t('Ejecución presupuestal');
   t('Estados financieros');
   t('Eventos');
+  t('Gestión documental');
   t('Información contractual');
+  t('Informe de PQRS y denuncias');
   t('Informes de empalme');
   t('Inicio');
+  t('Instrumentos de gestión de información');
+  t('Instrumentos de gestión de información pública');
   t('Lineamientos');
   t('Manual de contrataciones');
   t('Marco Legal');
@@ -1056,6 +1209,7 @@ transparencia/presupuesto/*',
   t('Presupuesto');
   t('Presupuesto general');
   t('Programas y Proyectos');
+  t('Relacionados con la Información');
   t('Transparencia');
   t('Visión');
 
