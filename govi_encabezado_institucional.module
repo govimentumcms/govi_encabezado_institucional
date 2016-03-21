@@ -28,6 +28,14 @@ function govi_encabezado_institucional_menu() {
         'file' => 'includes/govi_encabezado_institucional.admin.inc'
     );
 
+    $items['admin/config/features/site_register'] = array(
+        'title' => 'Registrar sitio',
+        'description' => 'Formulario de registro sitio web institucional',
+        'page callback' => 'drupal_get_form',
+        'page arguments' => array('govi_registrar_sitio'),
+        'access arguments' => array('access administration pages'),
+        'file' => 'includes/govi_registrar_sitio.admin.inc'
+    );
+
     return $items;
 }
-
