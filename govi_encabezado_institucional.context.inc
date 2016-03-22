@@ -26,6 +26,7 @@ function govi_encabezado_institucional_context_default_contexts() {
         'organizacion' => 'organizacion',
         'planeacion' => 'planeacion',
         'presupuesto' => 'presupuesto',
+        'tramites_servicios' => 'tramites_servicios',
       ),
       'options' => array(
         'node_form' => '1',
@@ -45,6 +46,8 @@ function govi_encabezado_institucional_context_default_contexts() {
         'transparencia/presupuesto' => 'transparencia/presupuesto',
         'transparencia/instrumentos-gestion-informacion-publica/*' => 'transparencia/instrumentos-gestion-informacion-publica/*',
         'transparencia/instrumentos-gestion-informacion-publica' => 'transparencia/instrumentos-gestion-informacion-publica',
+        'transparencia/tramites-servicios/*' => 'transparencia/tramites-servicios/*',
+        'transparencia/tramites-servicios' => 'transparencia/tramites-servicios',
       ),
     ),
   );
