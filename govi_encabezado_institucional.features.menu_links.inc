@@ -10,58 +10,38 @@
 function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_atencin-al-ciudadano:<front>.
-  $menu_links['main-menu_atencin-al-ciudadano:<front>'] = array(
+  // Exported menu link: main-menu_atencin-al-ciudadano:govi-sdqs/crear.
+  $menu_links['main-menu_atencin-al-ciudadano:govi-sdqs/crear'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
+    'link_path' => 'govi-sdqs/crear',
+    'router_path' => 'govi-sdqs/crear',
     'link_title' => 'Atención al Ciudadano',
     'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
       'attributes' => array(
         'class' => array(
           0 => 'icon-user_circle',
+          1 => 'colorbox-load',
+          2 => 'colorbox-node',
         ),
       ),
       'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
         'id' => '',
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_atencin-al-ciudadano:<front>',
+      'identifier' => 'main-menu_atencin-al-ciudadano:govi-sdqs/crear',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -46,
-    'customized' => 1,
-  );
-  // Exported menu link: main-menu_contacto:<front>.
-  $menu_links['main-menu_contacto:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Contacto',
-    'options' => array(
-      'attributes' => array(
-        'class' => array(
-          0 => 'icon-speech_4',
-        ),
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_contacto:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
     'customized' => 1,
   );
   // Exported menu link: main-menu_contratacin:<front>.
@@ -1236,7 +1216,6 @@ transparencia/tramites-servicios/*',
   // Translatables
   // Included for use with string extractors like potx.
   t('Atención al Ciudadano');
-  t('Contacto');
   t('Contratación');
   t('Contáctenos');
   t('Directorio de Funcionarios');
