@@ -10,58 +10,38 @@
 function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_atencin-al-ciudadano:<front>.
-  $menu_links['main-menu_atencin-al-ciudadano:<front>'] = array(
+  // Exported menu link: main-menu_atencin-al-ciudadano:govi-sdqs/crear.
+  $menu_links['main-menu_atencin-al-ciudadano:govi-sdqs/crear'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
+    'link_path' => 'govi-sdqs/crear',
+    'router_path' => 'govi-sdqs/crear',
     'link_title' => 'Atención al Ciudadano',
     'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
       'attributes' => array(
         'class' => array(
           0 => 'icon-user_circle',
+          1 => 'colorbox-load',
+          2 => 'colorbox-node',
         ),
       ),
       'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
         'id' => '',
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_atencin-al-ciudadano:<front>',
+      'identifier' => 'main-menu_atencin-al-ciudadano:govi-sdqs/crear',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -46,
-    'customized' => 1,
-  );
-  // Exported menu link: main-menu_contacto:<front>.
-  $menu_links['main-menu_contacto:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Contacto',
-    'options' => array(
-      'attributes' => array(
-        'class' => array(
-          0 => 'icon-speech_4',
-        ),
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_contacto:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
     'customized' => 1,
   );
   // Exported menu link: main-menu_contratacin:<front>.
@@ -927,6 +907,35 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'weight' => -49,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_trmites-y-servicios:transparencia/tramites-servicios.
+  $menu_links['main-menu_trmites-y-servicios:transparencia/tramites-servicios'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/tramites-servicios',
+    'router_path' => 'transparencia/tramites-servicios',
+    'link_title' => 'Trámites y Servicios',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_trmites-y-servicios:transparencia/tramites-servicios',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -44,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_transparencia:node/1',
+  );
   // Exported menu link: main-menu_visin:transparencia/organizacion.
   $menu_links['main-menu_visin:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
@@ -1174,11 +1183,39 @@ transparencia/presupuesto/*',
     'weight' => -46,
     'customized' => 1,
   );
+  // Exported menu link: menu-transparencia-segundo-nivel_trmites-y-servicios:transparencia/tramites-servicios.
+  $menu_links['menu-transparencia-segundo-nivel_trmites-y-servicios:transparencia/tramites-servicios'] = array(
+    'menu_name' => 'menu-transparencia-segundo-nivel',
+    'link_path' => 'transparencia/tramites-servicios',
+    'router_path' => 'transparencia/tramites-servicios',
+    'link_title' => 'Trámites y Servicios',
+    'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/tramites-servicios
+transparencia/tramites-servicios/*',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-transparencia-segundo-nivel_trmites-y-servicios:transparencia/tramites-servicios',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+  );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('Atención al Ciudadano');
-  t('Contacto');
   t('Contratación');
   t('Contáctenos');
   t('Directorio de Funcionarios');
@@ -1211,6 +1248,7 @@ transparencia/presupuesto/*',
   t('Programas y Proyectos');
   t('Relacionados con la Información');
   t('Transparencia');
+  t('Trámites y Servicios');
   t('Visión');
 
   return $menu_links;
