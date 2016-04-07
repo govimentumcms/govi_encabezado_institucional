@@ -68,7 +68,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 1,
     'weight' => -46,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:node/1',
+    'parent_identifier' => 'main-menu_transparencia:<front>',
   );
   // Exported menu link: main-menu_directorio-de-funcionarios:transparencia/organizacion/directorio-funcionarios.
   $menu_links['main-menu_directorio-de-funcionarios:transparencia/organizacion/directorio-funcionarios'] = array(
@@ -386,7 +386,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'expanded' => 1,
     'weight' => -45,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:node/1',
+    'parent_identifier' => 'main-menu_transparencia:<front>',
   );
   // Exported menu link: main-menu_lineamientos:transparencia/marco-legal/lineamientos.
   $menu_links['main-menu_lineamientos:transparencia/marco-legal/lineamientos'] = array(
@@ -473,7 +473,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'expanded' => 1,
     'weight' => -49,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:node/1',
+    'parent_identifier' => 'main-menu_transparencia:<front>',
   );
   // Exported menu link: main-menu_metas-objetivos-e-indicadores:transparencia/planeacion/metas-objetivos-indicadores.
   $menu_links['main-menu_metas-objetivos-e-indicadores:transparencia/planeacion/metas-objetivos-indicadores'] = array(
@@ -645,7 +645,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'expanded' => 1,
     'weight' => -50,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:node/1',
+    'parent_identifier' => 'main-menu_transparencia:<front>',
   );
   // Exported menu link: main-menu_participacin-ciudadana:transparencia/planeacion/participacion-ciudadana.
   $menu_links['main-menu_participacin-ciudadana:transparencia/planeacion/participacion-ciudadana'] = array(
@@ -732,7 +732,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'expanded' => 1,
     'weight' => -48,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:node/1',
+    'parent_identifier' => 'main-menu_transparencia:<front>',
   );
   // Exported menu link: main-menu_planes:transparencia/planeacion/planes.
   $menu_links['main-menu_planes:transparencia/planeacion/planes'] = array(
@@ -819,7 +819,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'expanded' => 1,
     'weight' => -47,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:node/1',
+    'parent_identifier' => 'main-menu_transparencia:<front>',
   );
   // Exported menu link: main-menu_programas-y-proyectos:transparencia/planeacion/programas-proyectos.
   $menu_links['main-menu_programas-y-proyectos:transparencia/planeacion/programas-proyectos'] = array(
@@ -880,33 +880,6 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'customized' => 1,
     'parent_identifier' => 'main-menu_instrumentos-de-gestin-de-informacin-pblica:transparencia/instrumentos-gestion-informacion-publica',
   );
-  // Exported menu link: main-menu_transparencia:node/1.
-  $menu_links['main-menu_transparencia:node/1'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/1',
-    'router_path' => 'node/%',
-    'link_title' => 'Transparencia',
-    'options' => array(
-      'attributes' => array(
-        'class' => array(
-          0 => 'icon-circle_ok',
-        ),
-      ),
-      'item_attributes' => array(
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_transparencia:node/1',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 1,
-    'expanded' => 1,
-    'weight' => -49,
-    'customized' => 1,
-  );
   // Exported menu link: main-menu_trmites-y-servicios:transparencia/tramites-servicios.
   $menu_links['main-menu_trmites-y-servicios:transparencia/tramites-servicios'] = array(
     'menu_name' => 'main-menu',
@@ -934,7 +907,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'expanded' => 0,
     'weight' => -44,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:node/1',
+    'parent_identifier' => 'main-menu_transparencia:<front>',
   );
   // Exported menu link: main-menu_visin:transparencia/organizacion.
   $menu_links['main-menu_visin:transparencia/organizacion'] = array(
@@ -1247,7 +1220,6 @@ transparencia/tramites-servicios/*',
   t('Presupuesto general');
   t('Programas y Proyectos');
   t('Relacionados con la Información');
-  t('Transparencia');
   t('Trámites y Servicios');
   t('Visión');
 
