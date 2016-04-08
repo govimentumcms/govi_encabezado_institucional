@@ -69,6 +69,7 @@ features[menu_links][] = main-menu_presupuesto-general:transparencia/presupuesto
 features[menu_links][] = main-menu_presupuesto:transparencia/presupuesto
 features[menu_links][] = main-menu_programas-y-proyectos:transparencia/planeacion/programas-proyectos
 features[menu_links][] = main-menu_relacionados-con-la-informacin:transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion
+features[menu_links][] = main-menu_transparencia:<front>
 features[menu_links][] = main-menu_trmites-y-servicios:transparencia/tramites-servicios
 features[menu_links][] = main-menu_visin:transparencia/organizacion
 features[menu_links][] = menu-menu-secundario_contctenos:node/1
