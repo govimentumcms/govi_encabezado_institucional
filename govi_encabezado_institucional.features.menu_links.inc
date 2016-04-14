@@ -21,6 +21,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
         'pages' => '',
       ),
       'attributes' => array(
+        'title' => 'atención al Ciudadano',
         'class' => array(
           0 => 'icon-user_circle',
           1 => 'colorbox-load',
@@ -51,7 +52,12 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'router_path' => '',
     'link_title' => 'Contratación',
     'options' => array(
-      'attributes' => array(),
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(
+        'title' => 'contratación',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -74,13 +80,15 @@ function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links['main-menu_directorio-de-funcionarios:transparencia/organizacion/directorio-funcionarios'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/organizacion/directorio-funcionarios',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/organizacion/directorio-funcionarios',
     'link_title' => 'Directorio de Funcionarios',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'directorio de funcionarios',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -103,13 +111,15 @@ function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links['main-menu_ejecucin-de-contratos:transparencia/contratacion/ejecucion_contratos'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/contratacion/ejecucion_contratos',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/contratacion/ejecucion_contratos',
     'link_title' => 'Ejecución de contratos',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'ejecución de contratos',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -132,13 +142,15 @@ function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links['main-menu_ejecucin-presupuestal:transparencia/presupuesto/ejecucion-presupuestal'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/presupuesto/ejecucion-presupuestal',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/presupuesto/ejecucion-presupuestal',
     'link_title' => 'Ejecución presupuestal',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'ejecución presupuestal',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -161,13 +173,15 @@ function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links['main-menu_estados-financieros:transparencia/presupuesto/estados-financieros'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/presupuesto/estados-financieros',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/presupuesto/estados-financieros',
     'link_title' => 'Estados financieros',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'estados financieros',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -193,12 +207,18 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'router_path' => 'calendario/ano',
     'link_title' => 'Eventos',
     'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
       'attributes' => array(
+        'title' => 'eventos',
         'class' => array(
           0 => 'icon-calendar',
         ),
       ),
       'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
         'id' => '',
         'class' => '',
         'style' => '',
@@ -217,14 +237,16 @@ function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links['main-menu_gestin-documental:transparencia/instrumentos-gestion-informacion-publica/gestion-documental'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/instrumentos-gestion-informacion-publica/gestion-documental',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/instrumentos-gestion-informacion-publica/gestion-documental',
     'link_title' => 'Gestión documental',
     'options' => array(
       'cami' => array(
         'pages' => 'transparencia/instrumentos-gestion-informacion-publica/gestion-documental
 transparencia/instrumentos-gestion-informacion-publica/gestion-documental/*',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'gestión documental',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -247,13 +269,15 @@ transparencia/instrumentos-gestion-informacion-publica/gestion-documental/*',
   $menu_links['main-menu_informacin-contractual:transparencia/contratacion/informacion_contractual'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/contratacion/informacion_contractual',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/contratacion/informacion_contractual',
     'link_title' => 'Información contractual',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'información contractual',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -276,14 +300,16 @@ transparencia/instrumentos-gestion-informacion-publica/gestion-documental/*',
   $menu_links['main-menu_informe-de-pqrs-y-denuncias:transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes',
     'link_title' => 'Informe de PQRS y denuncias',
     'options' => array(
       'cami' => array(
         'pages' => 'transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes
 transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-solicitudes/*',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'informe de PQRS y denuncias',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -306,13 +332,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_informes-de-empalme:transparencia/planeacion/informes-empalme'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/planeacion/informes-empalme',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/planeacion/informes-empalme',
     'link_title' => 'Informes de empalme',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'informes de empalme',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -338,17 +366,23 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'router_path' => '',
     'link_title' => 'Inicio',
     'options' => array(
-      'identifier' => 'main-menu_inicio:<front>',
+      'cami' => array(
+        'pages' => '',
+      ),
       'attributes' => array(
+        'title' => 'inicio',
         'class' => array(
           0 => 'icon-home',
         ),
       ),
       'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
         'id' => '',
         'class' => '',
         'style' => '',
       ),
+      'identifier' => 'main-menu_inicio:<front>',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -362,14 +396,16 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_instrumentos-de-gestin-de-informacin-pblica:transparencia/instrumentos-gestion-informacion-publica'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/instrumentos-gestion-informacion-publica',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/instrumentos-gestion-informacion-publica',
     'link_title' => 'Instrumentos de gestión de información pública',
     'options' => array(
       'cami' => array(
         'pages' => '/transparencia/instrumentos-gestion-informacion-publica
 /transparencia/instrumentos-gestion-informacion-publica/*',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'instrumentos de gestión de información pública',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -392,13 +428,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_lineamientos:transparencia/marco-legal/lineamientos'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/marco-legal/lineamientos',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/marco-legal/lineamientos',
     'link_title' => 'Lineamientos',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'lineamientos',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -421,13 +459,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_manual-de-contrataciones:transparencia/contratacion/manual_contrataciones'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/contratacion/manual_contrataciones',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/contratacion/manual_contrataciones',
     'link_title' => 'Manual de contrataciones',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'manual de contrataciones',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -450,13 +490,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_marco-legal:transparencia/marco-legal'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/marco-legal',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/marco-legal',
     'link_title' => 'Marco Legal',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'marco legal',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -479,13 +521,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_metas-objetivos-e-indicadores:transparencia/planeacion/metas-objetivos-indicadores'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/planeacion/metas-objetivos-indicadores',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/planeacion/metas-objetivos-indicadores',
     'link_title' => 'Metas, objetivos e indicadores',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'mestas, objetivos e indicadores',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -508,13 +552,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_misin:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/organizacion',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/organizacion',
     'link_title' => 'Misión',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'misión',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -537,13 +583,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_normatividad:transparencia/marco-legal/normatividad'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/marco-legal/normatividad',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/marco-legal/normatividad',
     'link_title' => 'Normatividad',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'normatividad',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -569,12 +617,18 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'router_path' => 'noticias',
     'link_title' => 'Noticias',
     'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
       'attributes' => array(
+        'title' => 'noticias',
         'class' => array(
           0 => 'icon-book_1',
         ),
       ),
       'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
         'id' => '',
         'class' => '',
         'style' => '',
@@ -599,7 +653,9 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'organigrama',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -622,13 +678,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_organizacin:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/organizacion',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/organizacion',
     'link_title' => 'Organización',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'organización',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -651,13 +709,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_participacin-ciudadana:transparencia/planeacion/participacion-ciudadana'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/planeacion/participacion-ciudadana',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/planeacion/participacion-ciudadana',
     'link_title' => 'Participación Ciudadana',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'participación ciudadana',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -680,13 +740,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_plan-anual-de-adquisiciones:transparencia/contratacion/plan-anual-adquisiciones'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/contratacion/plan-anual-adquisiciones',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/contratacion/plan-anual-adquisiciones',
     'link_title' => 'Plan anual de adquisiciones',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'plan anual de adquisiciones',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -709,13 +771,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_planeacin:transparencia/planeacion'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/planeacion',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/planeacion',
     'link_title' => 'Planeación',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'planeación',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -738,13 +802,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_planes:transparencia/planeacion/planes'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/planeacion/planes',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/planeacion/planes',
     'link_title' => 'Planes',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'planes',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -767,13 +833,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_presupuesto-general:transparencia/presupuesto/general'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/presupuesto/general',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/presupuesto/general',
     'link_title' => 'Presupuesto general',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'presupuesto general',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -796,13 +864,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_presupuesto:transparencia/presupuesto'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/presupuesto',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/presupuesto',
     'link_title' => 'Presupuesto',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'presupuesto',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -825,13 +895,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_programas-y-proyectos:transparencia/planeacion/programas-proyectos'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/planeacion/programas-proyectos',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/planeacion/programas-proyectos',
     'link_title' => 'Programas y Proyectos',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'programas y proyectos',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -854,14 +926,16 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_relacionados-con-la-informacin:transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion',
     'link_title' => 'Relacionados con la Información',
     'options' => array(
       'cami' => array(
         'pages' => '/transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion
 /transparencia/instrumentos-gestion-informacion-publica/relacionados-informacion/*',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'relacionados con la Información',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -891,6 +965,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
         'pages' => '',
       ),
       'attributes' => array(
+        'title' => 'transparencia',
         'class' => array(
           0 => 'icon-circle_ok',
         ),
@@ -916,13 +991,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_trmites-y-servicios:transparencia/tramites-servicios'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/tramites-servicios',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/tramites-servicios',
     'link_title' => 'Trámites y Servicios',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'trámites y Servicios',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
@@ -945,13 +1022,15 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_visin:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/organizacion',
-    'router_path' => 'transparencia',
+    'router_path' => 'transparencia/organizacion',
     'link_title' => 'Visión',
     'options' => array(
       'cami' => array(
         'pages' => '',
       ),
-      'attributes' => array(),
+      'attributes' => array(
+        'title' => 'visión',
+      ),
       'item_attributes' => array(
         'data-inner-width' => '',
         'data-inner-height' => '',
