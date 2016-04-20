@@ -62,12 +62,13 @@ function govi_registrar_sitio() {
         '#default_value' => variable_get('header_sector'),
     );
 
+    $header_entidad = variable_get('header_entidad');
     $form['datos_sitio']['entidad'] = array(
         '#type' => 'textfield',
         '#title' => 'Entidad',
         '#required' => TRUE,
         '#disabled' => TRUE,
-        '#access' => empty(variable_get('header_entidad')) ? FALSE : TRUE,
+        '#access' => empty($header_entidad) ? FALSE : TRUE,
         '#default_value' => variable_get('header_entidad'),
     );
     
@@ -77,35 +78,39 @@ function govi_registrar_sitio() {
         '#description' => 'Lorem Ipsum Dolor Sit Amet',
     );
 
+    $sitio_nombre_admin = variable_get('sitio_nombre_admin');
     $form['datos_webmaster']['nombre_admin'] = array(
         '#type' => 'textfield',
         '#title' => 'Nombre del webmaster encargado del sitio',
         '#description' => 'Por favor ingrese nombres y apellidos completos',
         '#required' => TRUE,
-        '#default_value' => !empty(variable_get('sitio_nombre_admin')) ? variable_get('sitio_nombre_admin') : '',
+        '#default_value' => !empty($sitio_nombre_admin) ? variable_get('sitio_nombre_admin') : '',
     );
 
+    $sitio_cargo_admin = variable_get('sitio_cargo_admin');
     $form['datos_webmaster']['cargo_admin'] = array(
         '#type' => 'textfield',
         '#title' => 'Cargo',
         '#description' => 'Por favor ingrese su cargo',
         '#required' => TRUE,
-        '#default_value' => !empty(variable_get('sitio_cargo_admin')) ? variable_get('sitio_cargo_admin') : '',
+        '#default_value' => !empty($sitio_cargo_admin) ? variable_get('sitio_cargo_admin') : '',
     );
 
+    $sitio_dependencia_admin = variable_get('sitio_dependencia_admin');
     $form['datos_webmaster']['dependencia_admin'] = array(
         '#type' => 'textfield',
         '#title' => 'Dependencia',
         '#description' => 'Por favor ingrese su dependencia',
         '#required' => TRUE,
-        '#default_value' => !empty(variable_get('sitio_dependencia_admin')) ? variable_get('sitio_dependencia_admin') : '',
+        '#default_value' => !empty($sitio_dependencia_admin) ? variable_get('sitio_dependencia_admin') : '',
     );
 
+    $sitio_telefono_admin = variable_get('sitio_telefono_admin');
     $form['datos_webmaster']['telefono_admin'] = array(
         '#type' => 'textfield',
         '#title' => 'Teléfono y extensión de la oficina',
         '#required' => TRUE,
-        '#default_value' => !empty(variable_get('sitio_telefono_admin')) ? variable_get('sitio_telefono_admin') : '',
+        '#default_value' => !empty($sitio_telefono_admin) ? variable_get('sitio_telefono_admin') : '',
     );
 
     $form['datos_seguridad'] = array(
@@ -114,12 +119,13 @@ function govi_registrar_sitio() {
         '#description' => 'Lorem Ipsum Dolor Sit Amet',
     );
 
+    $sitio_token = variable_get('sitio_token');
     $form['datos_seguridad']['token'] = array(
         '#type' => 'textfield',
         '#title' => 'Token del sitio',
         '#required' => TRUE,
         '#disabled' => TRUE,
-        '#default_value' => !empty(variable_get('sitio_token')) ? variable_get('sitio_token') : drupal_hash_base64((string)time()),
+        '#default_value' => !empty($sitio_token) ? variable_get('sitio_token') : drupal_hash_base64((string)time()),
     );
 
     $form['submit'] = array(
