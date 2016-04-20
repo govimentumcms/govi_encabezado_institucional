@@ -147,6 +147,7 @@ function govi_registrar_sitio() {
 function govi_registrar_sitio_submit($form, &$form_state) {
 
     global $user;
+    
 
     variable_set('sitio_nombre_admin', $form_state['values']['nombre_admin']);
     variable_set('sitio_cargo_admin', $form_state['values']['cargo_admin']);
@@ -160,9 +161,10 @@ function govi_registrar_sitio_submit($form, &$form_state) {
         'form' => $form_state['values'],
     );
 
+    $correo_para = 'govimentum-cms@alcaldiabogota.gov.co';
     drupal_mail('govi_encabezado_institucional',
                 'registro',
-                $user->mail,
+                $correo_para,
                 user_preferred_language($user),
                 $params,
                 $user->mail,
