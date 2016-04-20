@@ -15,6 +15,14 @@ function govi_registrar_sitio() {
 
     global $base_url;
     global $user;
+
+
+    $sitio_registro_fecha = variable_get('sitio_registro_fecha');
+    $sitio_registrado = variable_get('sitio_registro_solicitud_enviada');
+    if ($sitio_registrado) {
+        $msg = 'Su sitio web ya cuenta con un registro enviado el día ' . $sitio_registro_fecha;
+        drupal_set_message($msg);
+    }
     
     $form = array();
 
@@ -162,8 +170,9 @@ function govi_registrar_sitio_submit($form, &$form_state) {
     );
 
     variable_set('sitio_registro_solicitud_enviada', TRUE);
-
-    drupal_set_message('Se ha enviado un correo electrónico con la solicitud de registro');
+    variable_set('sitio_registro_fecha', format_date(time(), 'long'));
+    drupal_get_messages();
+    drupal_set_message('Gracias por registrar su sitio. Se ha enviado un correo electrónico a <a href mailto:govimentum-cms@alcaldiabogota.gov.co>govimentum-cms@alcaldiabogota.gov.co</a>');
 }
 
 function govi_encabezado_institucional_mail($key, &$message, $params) {
