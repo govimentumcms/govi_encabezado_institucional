@@ -720,7 +720,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'hidden' => 0,
     'external' => 1,
     'has_children' => 1,
-    'expanded' => 0,
+    'expanded' => 1,
     'weight' => -50,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',

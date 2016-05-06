@@ -110,4 +110,6 @@ features_exclude[dependencies][govi_presupuesto] = govi_presupuesto
 features_exclude[dependencies][govi_instrumentos_gestion_info] = govi_instrumentos_gestion_info
 features_exclude[dependencies][govi_tramites_servicios] = govi_tramites_servicios
 features_exclude[field_base][field_tipo] = field_tipo
+features_exclude[menu_links][main-menu_localizacin-fsica-sucursales-o-regionales:transparencia/atencion-ciudadano/sedes] = main-menu_localizacin-fsica-sucursales-o-regionales:transparencia/atencion-ciudadano/sedes
+features_exclude[menu_links][menu-transparencia-segundo-nivel_mecanismos-de-contacto:<front>] = menu-transparencia-segundo-nivel_mecanismos-de-contacto:<front>
 project path = sites/all/modules/features
