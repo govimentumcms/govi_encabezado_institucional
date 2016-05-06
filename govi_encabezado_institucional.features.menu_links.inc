@@ -10,6 +10,35 @@
 function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links = array();
 
+  // Exported menu link: main-menu_atencin-al-ciudadano:<front>.
+  $menu_links['main-menu_atencin-al-ciudadano:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Atención al ciudadano',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_atencin-al-ciudadano:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_mecanismos-de-contacto:<front>',
+  );
   // Exported menu link: main-menu_atencin-al-ciudadano:govi-sdqs/crear.
   $menu_links['main-menu_atencin-al-ciudadano:govi-sdqs/crear'] = array(
     'menu_name' => 'main-menu',
@@ -72,7 +101,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'external' => 1,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -46,
+    'weight' => -45,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -80,7 +109,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links['main-menu_directorio-de-agremiaciones-asociaciones-y-otros-grupos-de-inters:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/organizacion',
-    'router_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia',
     'link_title' => 'Directorio de agremiaciones, asociaciones y otros grupos de interés',
     'options' => array(
       'cami' => array(
@@ -110,7 +139,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links['main-menu_directorio-de-entidades:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/organizacion',
-    'router_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia',
     'link_title' => 'Directorio de Entidades',
     'options' => array(
       'cami' => array(
@@ -140,7 +169,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links['main-menu_directorio-de-informacin-de-servidores-pblicos-empleados-y-contratistas:transparencia/organizacion/directorio-funcionarios'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/organizacion/directorio-funcionarios',
-    'router_path' => 'transparencia/organizacion/directorio-funcionarios',
+    'router_path' => 'transparencia',
     'link_title' => 'Directorio de información de servidores públicos, empleados y contratistas',
     'options' => array(
       'cami' => array(
@@ -264,7 +293,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links['main-menu_estructura-orgnica-y-talento-humano:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/organizacion',
-    'router_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia',
     'link_title' => 'Estructura orgánica y talento humano',
     'options' => array(
       'cami' => array(
@@ -287,7 +316,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -50,
+    'weight' => -49,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -328,7 +357,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links['main-menu_funciones-y-deberes:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/organizacion',
-    'router_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia',
     'link_title' => 'Funciones y deberes',
     'options' => array(
       'cami' => array(
@@ -476,7 +505,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => -45,
     'customized' => 1,
     'parent_identifier' => 'main-menu_planeacin:transparencia/planeacion',
   );
@@ -541,7 +570,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -45,
+    'weight' => -44,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -575,6 +604,35 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'weight' => -50,
     'customized' => 1,
     'parent_identifier' => 'main-menu_marco-legal:transparencia/marco-legal',
+  );
+  // Exported menu link: main-menu_localizacin-fsica-sucursales-o-regionales:transparencia/atencion-ciudadano/sedes.
+  $menu_links['main-menu_localizacin-fsica-sucursales-o-regionales:transparencia/atencion-ciudadano/sedes'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/atencion-ciudadano/sedes',
+    'router_path' => 'transparencia/atencion-ciudadano/sedes',
+    'link_title' => 'Localización física, sucursales o regionales',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_localizacin-fsica-sucursales-o-regionales:transparencia/atencion-ciudadano/sedes',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_mecanismos-de-contacto:<front>',
   );
   // Exported menu link: main-menu_manual-de-contrataciones:transparencia/contratacion/manual_contrataciones.
   $menu_links['main-menu_manual-de-contrataciones:transparencia/contratacion/manual_contrataciones'] = array(
@@ -634,7 +692,36 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -49,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_transparencia:<front>',
+  );
+  // Exported menu link: main-menu_mecanismos-de-contacto:<front>.
+  $menu_links['main-menu_mecanismos-de-contacto:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Mecanismos de contacto',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_mecanismos-de-contacto:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => -50,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -665,7 +752,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => -47,
     'customized' => 1,
     'parent_identifier' => 'main-menu_planeacin:transparencia/planeacion',
   );
@@ -673,7 +760,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_misin:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/organizacion',
-    'router_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia',
     'link_title' => 'Misión',
     'options' => array(
       'cami' => array(
@@ -765,11 +852,40 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'weight' => -39,
     'customized' => 1,
   );
+  // Exported menu link: main-menu_notificaciones-judiciales:<front>.
+  $menu_links['main-menu_notificaciones-judiciales:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Notificaciones Judiciales',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_notificaciones-judiciales:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_mecanismos-de-contacto:<front>',
+  );
   // Exported menu link: main-menu_ofertas-de-empleo:transparencia/organizacion.
   $menu_links['main-menu_ofertas-de-empleo:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/organizacion',
-    'router_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia',
     'link_title' => 'Ofertas de empleo',
     'options' => array(
       'cami' => array(
@@ -799,7 +915,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_organigrama:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/organizacion',
-    'router_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia',
     'link_title' => 'Organigrama',
     'options' => array(
       'cami' => array(
@@ -854,7 +970,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -47,
+    'weight' => -46,
     'customized' => 1,
     'parent_identifier' => 'main-menu_planeacin:transparencia/planeacion',
   );
@@ -916,7 +1032,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -48,
+    'weight' => -47,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -950,6 +1066,35 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'weight' => -50,
     'customized' => 1,
     'parent_identifier' => 'main-menu_planeacin:transparencia/planeacion',
+  );
+  // Exported menu link: main-menu_polticas-de-seguridad-de-la-informacin-y-proteccin-de-datos-pesonales:<front>.
+  $menu_links['main-menu_polticas-de-seguridad-de-la-informacin-y-proteccin-de-datos-pesonales:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Políticas de seguridad de la información y protección de datos pesonales',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_polticas-de-seguridad-de-la-informacin-y-proteccin-de-datos-pesonales:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_mecanismos-de-contacto:<front>',
   );
   // Exported menu link: main-menu_presupuesto-general:transparencia/presupuesto/general.
   $menu_links['main-menu_presupuesto-general:transparencia/presupuesto/general'] = array(
@@ -1009,7 +1154,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -47,
+    'weight' => -46,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -1017,7 +1162,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_procesos-y-procedimientos:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/organizacion',
-    'router_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia',
     'link_title' => 'Procesos y procedimientos',
     'options' => array(
       'cami' => array(
@@ -1166,7 +1311,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -44,
+    'weight' => -43,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -1174,7 +1319,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_visin:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/organizacion',
-    'router_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia',
     'link_title' => 'Visión',
     'options' => array(
       'cami' => array(
@@ -1268,14 +1413,14 @@ transparencia/contratación/',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -47,
+    'weight' => -46,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_estructura-orgnica-y-talento-humano:transparencia/organizacion.
   $menu_links['menu-transparencia-segundo-nivel_estructura-orgnica-y-talento-humano:transparencia/organizacion'] = array(
     'menu_name' => 'menu-transparencia-segundo-nivel',
     'link_path' => 'transparencia/organizacion',
-    'router_path' => 'transparencia/organizacion',
+    'router_path' => 'transparencia',
     'link_title' => 'Estructura orgánica y talento humano',
     'options' => array(
       'cami' => array(
@@ -1297,7 +1442,7 @@ transparencia/organizacion/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -50,
+    'weight' => -49,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_instrumentos-de-gestin-de-informacin:transparencia/instrumentos-gestion-informacion-publica/.
@@ -1326,7 +1471,7 @@ transparencia/instrumentos-gestion-informacion-publica',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -44,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_marco-legal:transparencia/marco-legal.
@@ -1355,7 +1500,35 @@ transparencia/marco-legal/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => -48,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-transparencia-segundo-nivel_mecanismos-de-contacto:<front>.
+  $menu_links['menu-transparencia-segundo-nivel_mecanismos-de-contacto:<front>'] = array(
+    'menu_name' => 'menu-transparencia-segundo-nivel',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'Mecanismos de contacto',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-transparencia-segundo-nivel_mecanismos-de-contacto:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_planeacin:transparencia/planeacion.
@@ -1386,7 +1559,7 @@ transparencia/planeacion/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => -47,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_presupuesto:transparencia/presupuesto.
@@ -1417,7 +1590,7 @@ transparencia/presupuesto/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => -45,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_trmites-y-servicios:transparencia/tramites-servicios.
@@ -1446,13 +1619,14 @@ transparencia/tramites-servicios/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => 0,
+    'weight' => -43,
     'customized' => 1,
   );
 
   // Translatables
   // Included for use with string extractors like potx.
   t('Atención al Ciudadano');
+  t('Atención al ciudadano');
   t('Contratación');
   t('Contáctenos');
   t('Directorio de Entidades');
@@ -1472,18 +1646,22 @@ transparencia/tramites-servicios/*',
   t('Instrumentos de gestión de información');
   t('Instrumentos de gestión de información pública');
   t('Lineamientos');
+  t('Localización física, sucursales o regionales');
   t('Manual de contrataciones');
   t('Marco Legal');
+  t('Mecanismos de contacto');
   t('Metas, objetivos e indicadores');
   t('Misión');
   t('Normatividad');
   t('Noticias');
+  t('Notificaciones Judiciales');
   t('Ofertas de empleo');
   t('Organigrama');
   t('Participación Ciudadana');
   t('Plan anual de adquisiciones');
   t('Planeación');
   t('Planes');
+  t('Políticas de seguridad de la información y protección de datos pesonales');
   t('Presupuesto');
   t('Presupuesto general');
   t('Procesos y procedimientos');
