@@ -10,35 +10,6 @@
 function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_atencin-al-ciudadano:<front>.
-  $menu_links['main-menu_atencin-al-ciudadano:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Atención al ciudadano',
-    'options' => array(
-      'cami' => array(
-        'pages' => '',
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_atencin-al-ciudadano:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 0,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_mecanismos-de-contacto:<front>',
-  );
   // Exported menu link: main-menu_atencin-al-ciudadano:govi-sdqs/crear.
   $menu_links['main-menu_atencin-al-ciudadano:govi-sdqs/crear'] = array(
     'menu_name' => 'main-menu',
@@ -73,6 +44,35 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -32,
     'customized' => 1,
+  );
+  // Exported menu link: main-menu_atencin-al-ciudadano:transparencia/atencion-ciudadano/sede-principal.
+  $menu_links['main-menu_atencin-al-ciudadano:transparencia/atencion-ciudadano/sede-principal'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/atencion-ciudadano/sede-principal',
+    'router_path' => 'transparencia/atencion-ciudadano/sede-principal',
+    'link_title' => 'Atención al ciudadano',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_atencin-al-ciudadano:transparencia/atencion-ciudadano/sede-principal',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => 0,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_mecanismos-de-contacto:<front>',
   );
   // Exported menu link: main-menu_contratacin:<front>.
   $menu_links['main-menu_contratacin:<front>'] = array(
