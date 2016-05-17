@@ -74,6 +74,36 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_mecanismos-de-contacto:<front>',
   );
+  // Exported menu link: main-menu_calendario-de-actividades:calendario/month.
+  $menu_links['main-menu_calendario-de-actividades:calendario/month'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'calendario/month',
+    'router_path' => 'calendario/month',
+    'link_title' => 'Calendario de Actividades',
+    'options' => array(
+      'cami' => array(
+        'pages' => 'calendario/month
+calendario/month/*',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_calendario-de-actividades:calendario/month',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -45,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_informacin-de-inters:transparencia/informacion-interes',
+  );
   // Exported menu link: main-menu_contratacin:<front>.
   $menu_links['main-menu_contratacin:<front>'] = array(
     'menu_name' => 'main-menu',
@@ -133,6 +163,38 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'weight' => -44,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
+  );
+  // Exported menu link: main-menu_convocatorias:transparencia/informacion-interes/convocatorias.
+  $menu_links['main-menu_convocatorias:transparencia/informacion-interes/convocatorias'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/informacion-interes/convocatorias',
+    'router_path' => 'transparencia/informacion-interes/convocatorias',
+    'link_title' => 'Convocatorias',
+    'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/informacion-interes/convocatoria/*
+transparencia/informacion-interes/convocatoria
+transparencia/informacion-interes/convocatorias/*
+transparencia/informacion-interes/convocatoria',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_convocatorias:transparencia/informacion-interes/convocatorias',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -49,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_informacin-de-inters:transparencia/informacion-interes',
   );
   // Exported menu link: main-menu_defensa-judicial:transparencia/control/defensa-judicial.
   $menu_links['main-menu_defensa-judicial:transparencia/control/defensa-judicial'] = array(
@@ -407,6 +469,39 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
+  // Exported menu link: main-menu_estudios-investigaciones-y-oras-publicaciones:transparencia/informacion-interes/publicaciones.
+  $menu_links['main-menu_estudios-investigaciones-y-oras-publicaciones:transparencia/informacion-interes/publicaciones'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/informacion-interes/publicaciones',
+    'router_path' => 'transparencia/informacion-interes/publicaciones',
+    'link_title' => 'Estudios, investigaciones y oras publicaciones',
+    'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/informacion-interes/publicaciones
+transparencia/informacion-interes/publicaciones/*
+transparencia/informacion-interes/publicacion/estudios/*
+transparencia/informacion-interes/publicacion/investigaciones/*
+ transparencia/informacion-interes/publicacion/otras-publicaciones/*',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_estudios-investigaciones-y-oras-publicaciones:transparencia/informacion-interes/publicaciones',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_informacin-de-inters:transparencia/informacion-interes',
+  );
   // Exported menu link: main-menu_eventos:calendario/ano.
   $menu_links['main-menu_eventos:calendario/ano'] = array(
     'menu_name' => 'main-menu',
@@ -502,6 +597,68 @@ transparencia/instrumentos-gestion-informacion-publica/gestion-documental/*',
     'customized' => 1,
     'parent_identifier' => 'main-menu_instrumentos-de-gestin-de-informacin-pblica:transparencia/instrumentos-gestion-informacion-publica',
   );
+  // Exported menu link: main-menu_glosario:transparencia/informacion-interes/glosario.
+  $menu_links['main-menu_glosario:transparencia/informacion-interes/glosario'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/informacion-interes/glosario',
+    'router_path' => 'transparencia/informacion-interes/glosario',
+    'link_title' => 'Glosario',
+    'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/informacion-interes/glosario
+transparencia/informacion-interes/glosario/*',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_glosario:transparencia/informacion-interes/glosario',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -47,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_informacin-de-inters:transparencia/informacion-interes',
+  );
+  // Exported menu link: main-menu_informacin-adicional:transparencia/informacion-interes/informacion-adicional.
+  $menu_links['main-menu_informacin-adicional:transparencia/informacion-interes/informacion-adicional'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/informacion-interes/informacion-adicional',
+    'router_path' => 'transparencia/informacion-interes/informacion-adicional',
+    'link_title' => 'Información adicional',
+    'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/informacion-interes/informacion-adicional
+transparencia/informacion-interes/informacion-adicional/*
+transparencia/informacion-interes/publicacion/información-adicional
+transparencia/informacion-interes/publicacion/información-adicional/*',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_informacin-adicional:transparencia/informacion-interes/informacion-adicional',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -43,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_informacin-de-inters:transparencia/informacion-interes',
+  );
   // Exported menu link: main-menu_informacin-contractual:transparencia/contratacion/informacion_contractual.
   $menu_links['main-menu_informacin-contractual:transparencia/contratacion/informacion_contractual'] = array(
     'menu_name' => 'main-menu',
@@ -532,6 +689,36 @@ transparencia/instrumentos-gestion-informacion-publica/gestion-documental/*',
     'weight' => -48,
     'customized' => 1,
     'parent_identifier' => 'main-menu_contratacin:<front>',
+  );
+  // Exported menu link: main-menu_informacin-de-inters:transparencia/informacion-interes.
+  $menu_links['main-menu_informacin-de-inters:transparencia/informacion-interes'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/informacion-interes',
+    'router_path' => 'transparencia/informacion-interes',
+    'link_title' => 'Información de Interés',
+    'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/informacion-interes
+transparencia/informacion-interes/*',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_informacin-de-inters:transparencia/informacion-interes',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 1,
+    'expanded' => 0,
+    'weight' => -42,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_transparencia:<front>',
   );
   // Exported menu link: main-menu_informacin-para-poblacin-vulnerable:transparencia/control/informacion-poblacion-vulnerable.
   $menu_links['main-menu_informacin-para-poblacin-vulnerable:transparencia/control/informacion-poblacion-vulnerable'] = array(
@@ -1267,6 +1454,36 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'customized' => 1,
     'parent_identifier' => 'main-menu_mecanismos-de-contacto:<front>',
   );
+  // Exported menu link: main-menu_preguntas-frecuentes:transparencia/informacion-interes/faqs.
+  $menu_links['main-menu_preguntas-frecuentes:transparencia/informacion-interes/faqs'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/informacion-interes/faqs',
+    'router_path' => 'transparencia/informacion-interes/faqs',
+    'link_title' => 'Preguntas frecuentes',
+    'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/informacion-interes/faqs
+transparencia/informacion-interes/faqs/*',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_preguntas-frecuentes:transparencia/informacion-interes/faqs',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_informacin-de-inters:transparencia/informacion-interes',
+  );
   // Exported menu link: main-menu_presupuesto-general:transparencia/presupuesto/general.
   $menu_links['main-menu_presupuesto-general:transparencia/presupuesto/general'] = array(
     'menu_name' => 'main-menu',
@@ -1511,7 +1728,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -42,
+    'weight' => -41,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -1672,6 +1889,57 @@ transparencia/organizacion/*',
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -49,
+    'customized' => 1,
+  );
+  // Exported menu link: menu-transparencia-segundo-nivel_informacin-de-inters:transparencia/informacion-interes.
+  $menu_links['menu-transparencia-segundo-nivel_informacin-de-inters:transparencia/informacion-interes'] = array(
+    'menu_name' => 'menu-transparencia-segundo-nivel',
+    'link_path' => 'transparencia/informacion-interes',
+    'router_path' => 'transparencia/informacion-interes',
+    'link_title' => 'Información de Interés',
+    'options' => array(
+      'cami' => array(
+        'pages' => 'transparencia/informacion-interes
+transparencia/informacion-interes/*
+transparencia/informacion-interes/convocatoria
+transparencia/informacion-interes/convocatoria/*
+transparencia/informacion-interes/convocatorias
+transparencia/informacion-interes/convocatorias/*
+transparencia/informacion-interes/publicaciones
+transparencia/informacion-interes/publicaciones/*
+transparencia/informacion-interes/publicacion
+transparencia/informacion-interes/publicacion/*
+noticias/*
+noticias
+noticia/*
+calendario/month
+calendario/month/*
+transparencia/informacion-interes/faqs
+transparencia/informacion-interes/faqs/*
+transparencia/informacion-interes/glosario
+transparencia/informacion-interes/glosario/*
+transparencia/informacion-interes/informacion-ninos-ninas-adolecentes
+transparencia/informacion-interes/informacion-ninos-ninas-adolecentes/*
+transparencia/informacion-interes/informacion-adicional
+transparencia/informacion-interes/informacion-adicional/*
+',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'menu-transparencia-segundo-nivel_informacin-de-inters:transparencia/informacion-interes',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -42,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_instrumentos-de-gestin-de-informacin:transparencia/instrumentos-gestion-informacion-publica/.
@@ -1848,7 +2116,7 @@ transparencia/tramites-servicios/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -42,
+    'weight' => -41,
     'customized' => 1,
   );
 
@@ -1856,9 +2124,11 @@ transparencia/tramites-servicios/*',
   // Included for use with string extractors like potx.
   t('Atención al Ciudadano');
   t('Atención al ciudadano');
+  t('Calendario de Actividades');
   t('Contratación');
   t('Control');
   t('Contáctenos');
+  t('Convocatorias');
   t('Defensa judicial');
   t('Directorio de Entidades');
   t('Directorio de agremiaciones, asociaciones y otros grupos de interés');
@@ -1868,10 +2138,14 @@ transparencia/tramites-servicios/*',
   t('Entes de control, vigilancia y mecamismos de supervición');
   t('Estados financieros');
   t('Estructura orgánica y talento humano');
+  t('Estudios, investigaciones y oras publicaciones');
   t('Eventos');
   t('Funciones y deberes');
   t('Gestión documental');
+  t('Glosario');
+  t('Información adicional');
   t('Información contractual');
+  t('Información de Interés');
   t('Información para población vulnerable');
   t('Informe de PQRS y denuncias');
   t('Informes de empalme');
@@ -1897,6 +2171,7 @@ transparencia/tramites-servicios/*',
   t('Planes');
   t('Planes de mejoramiento');
   t('Políticas de seguridad de la información y protección de datos pesonales');
+  t('Preguntas frecuentes');
   t('Presupuesto');
   t('Presupuesto general');
   t('Procesos y procedimientos');
