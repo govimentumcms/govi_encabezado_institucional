@@ -58,7 +58,6 @@ features[menu_links][] = main-menu_ejecucin-presupuestal:transparencia/presupues
 features[menu_links][] = main-menu_entes-de-control-vigilancia-y-mecamismos-de-supervicin:transparencia/control/entes-control-vigilancia-mecanismos-supervicion
 features[menu_links][] = main-menu_estados-financieros:transparencia/presupuesto/estados-financieros
 features[menu_links][] = main-menu_estructura-orgnica-y-talento-humano:transparencia/organizacion
-features[menu_links][] = main-menu_estudios-investigaciones-y-oras-publicaciones:transparencia/informacion-interes/publicaciones
 features[menu_links][] = main-menu_eventos:calendario/ano
 features[menu_links][] = main-menu_funciones-y-deberes:transparencia/organizacion
 features[menu_links][] = main-menu_gestin-documental:transparencia/instrumentos-gestion-informacion-publica/gestion-documental

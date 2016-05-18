@@ -168,7 +168,7 @@ calendario/month/*',
   $menu_links['main-menu_convocatorias:transparencia/informacion-interes/convocatorias'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/informacion-interes/convocatorias',
-    'router_path' => 'transparencia/informacion-interes/convocatorias',
+    'router_path' => 'transparencia',
     'link_title' => 'Convocatorias',
     'options' => array(
       'cami' => array(
@@ -469,39 +469,6 @@ transparencia/informacion-interes/convocatoria',
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
-  // Exported menu link: main-menu_estudios-investigaciones-y-oras-publicaciones:transparencia/informacion-interes/publicaciones.
-  $menu_links['main-menu_estudios-investigaciones-y-oras-publicaciones:transparencia/informacion-interes/publicaciones'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'transparencia/informacion-interes/publicaciones',
-    'router_path' => 'transparencia/informacion-interes/publicaciones',
-    'link_title' => 'Estudios, investigaciones y oras publicaciones',
-    'options' => array(
-      'cami' => array(
-        'pages' => 'transparencia/informacion-interes/publicaciones
-transparencia/informacion-interes/publicaciones/*
-transparencia/informacion-interes/publicacion/estudios/*
-transparencia/informacion-interes/publicacion/investigaciones/*
- transparencia/informacion-interes/publicacion/otras-publicaciones/*',
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_estudios-investigaciones-y-oras-publicaciones:transparencia/informacion-interes/publicaciones',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_informacin-de-inters:transparencia/informacion-interes',
-  );
   // Exported menu link: main-menu_eventos:calendario/ano.
   $menu_links['main-menu_eventos:calendario/ano'] = array(
     'menu_name' => 'main-menu',
@@ -601,7 +568,7 @@ transparencia/instrumentos-gestion-informacion-publica/gestion-documental/*',
   $menu_links['main-menu_glosario:transparencia/informacion-interes/glosario'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/informacion-interes/glosario',
-    'router_path' => 'transparencia/informacion-interes/glosario',
+    'router_path' => 'transparencia',
     'link_title' => 'Glosario',
     'options' => array(
       'cami' => array(
@@ -631,7 +598,7 @@ transparencia/informacion-interes/glosario/*',
   $menu_links['main-menu_informacin-adicional:transparencia/informacion-interes/informacion-adicional'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/informacion-interes/informacion-adicional',
-    'router_path' => 'transparencia/informacion-interes/informacion-adicional',
+    'router_path' => 'transparencia',
     'link_title' => 'Información adicional',
     'options' => array(
       'cami' => array(
@@ -715,7 +682,7 @@ transparencia/informacion-interes/*',
     'hidden' => 0,
     'external' => 0,
     'has_children' => 1,
-    'expanded' => 0,
+    'expanded' => 1,
     'weight' => -42,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
@@ -1458,7 +1425,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
   $menu_links['main-menu_preguntas-frecuentes:transparencia/informacion-interes/faqs'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/informacion-interes/faqs',
-    'router_path' => 'transparencia/informacion-interes/faqs',
+    'router_path' => 'transparencia',
     'link_title' => 'Preguntas frecuentes',
     'options' => array(
       'cami' => array(
@@ -1895,7 +1862,7 @@ transparencia/organizacion/*',
   $menu_links['menu-transparencia-segundo-nivel_informacin-de-inters:transparencia/informacion-interes'] = array(
     'menu_name' => 'menu-transparencia-segundo-nivel',
     'link_path' => 'transparencia/informacion-interes',
-    'router_path' => 'transparencia/informacion-interes',
+    'router_path' => 'transparencia',
     'link_title' => 'Información de Interés',
     'options' => array(
       'cami' => array(
@@ -2138,7 +2105,6 @@ transparencia/tramites-servicios/*',
   t('Entes de control, vigilancia y mecamismos de supervición');
   t('Estados financieros');
   t('Estructura orgánica y talento humano');
-  t('Estudios, investigaciones y oras publicaciones');
   t('Eventos');
   t('Funciones y deberes');
   t('Gestión documental');
