@@ -1151,32 +1151,6 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'weight' => -39,
     'customized' => 1,
   );
-  // Exported menu link: main-menu_notificaciones-judiciales:node/126.
-  $menu_links['main-menu_notificaciones-judiciales:node/126'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'node/126',
-    'router_path' => 'node/%',
-    'link_title' => 'Notificaciones Judiciales',
-    'options' => array(
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_notificaciones-judiciales:node/126',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => 4,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_mecanismos-de-contacto:<front>',
-  );
   // Exported menu link: main-menu_ofertas-de-empleo:transparencia/organizacion.
   $menu_links['main-menu_ofertas-de-empleo:transparencia/organizacion'] = array(
     'menu_name' => 'main-menu',

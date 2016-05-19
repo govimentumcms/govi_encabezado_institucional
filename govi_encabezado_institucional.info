@@ -80,7 +80,6 @@ features[menu_links][] = main-menu_metas-objetivos-e-indicadores:transparencia/p
 features[menu_links][] = main-menu_misin:transparencia/organizacion
 features[menu_links][] = main-menu_normatividad:transparencia/marco-legal/normatividad
 features[menu_links][] = main-menu_noticias:noticias
-features[menu_links][] = main-menu_notificaciones-judiciales:node/126
 features[menu_links][] = main-menu_ofertas-de-empleo:transparencia/organizacion
 features[menu_links][] = main-menu_organigrama:transparencia/organizacion
 features[menu_links][] = main-menu_participacin-ciudadana:transparencia/planeacion/participacion-ciudadana
