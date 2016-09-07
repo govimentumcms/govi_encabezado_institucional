@@ -41,7 +41,8 @@ function govi_encabezado_institucional_admin_config_main() {
             'desarrollo_economico' => 'Secretaría de Desarrollo Económico',
             'habitat' => 'Secretaría de Habitat',
             'bomberos' => 'Cuerpo Oficial de Bomberos',
-            'espacio_publico' => 'Departamento administrativo de la defensoria del espacio público'
+            'espacio_publico' => 'Departamento administrativo de la defensoria del espacio público',
+            'seguridad' => 'Secretaría Distrital de Seguridad, Convivencia y Justicia'
         ),
         '#default_value' => variable_get('header_sector'),
         '#description' => 'Seleccione el sector al que pertenece su entidad',
