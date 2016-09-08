@@ -131,7 +131,7 @@ calendario/month/*',
     'external' => 1,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -45,
+    'weight' => -43,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -465,7 +465,7 @@ transparencia/informacion-interes/convocatoria',
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -49,
+    'weight' => -48,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -661,7 +661,7 @@ transparencia/informacion-interes/publicacion/información-adicional/*',
   $menu_links['main-menu_informacin-de-inters:transparencia/informacion-interes'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'transparencia/informacion-interes',
-    'router_path' => 'transparencia/informacion-interes',
+    'router_path' => 'transparencia',
     'link_title' => 'Información de Interés',
     'options' => array(
       'cami' => array(
@@ -683,7 +683,7 @@ transparencia/informacion-interes/*',
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -42,
+    'weight' => -49,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -869,7 +869,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -43,
+    'weight' => -41,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -991,7 +991,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -48,
+    'weight' => -47,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -1302,7 +1302,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -47,
+    'weight' => -45,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -1669,7 +1669,7 @@ transparencia/informacion-interes/faqs/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -41,
+    'weight' => -42,
     'customized' => 1,
     'parent_identifier' => 'main-menu_transparencia:<front>',
   );
@@ -1771,7 +1771,7 @@ transparencia/contratación/',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => -43,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_control:transparencia/control.
@@ -1829,7 +1829,7 @@ transparencia/organizacion/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => -48,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_informacin-de-inters:transparencia/informacion-interes.
@@ -1880,7 +1880,7 @@ transparencia/informacion-interes/informacion-adicional/*
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -42,
+    'weight' => -49,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_instrumentos-de-gestin-de-informacin:transparencia/instrumentos-gestion-informacion-publica/.
@@ -1909,7 +1909,7 @@ transparencia/instrumentos-gestion-informacion-publica',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -43,
+    'weight' => -41,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_marco-legal:transparencia/marco-legal.
@@ -1938,7 +1938,7 @@ transparencia/marco-legal/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => -47,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_mecanismos-de-contacto:<front>.
@@ -1997,7 +1997,7 @@ transparencia/planeacion/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -47,
+    'weight' => -45,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_presupuesto:transparencia/presupuesto.
@@ -2028,7 +2028,7 @@ transparencia/presupuesto/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -45,
+    'weight' => -46,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_trmites-y-servicios:transparencia/tramites-servicios.
@@ -2057,7 +2057,7 @@ transparencia/tramites-servicios/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -41,
+    'weight' => -42,
     'customized' => 1,
   );
 
@@ -2102,7 +2102,6 @@ transparencia/tramites-servicios/*',
   t('Misión');
   t('Normatividad');
   t('Noticias');
-  t('Notificaciones Judiciales');
   t('Ofertas de empleo');
   t('Organigrama');
   t('Participación Ciudadana');
