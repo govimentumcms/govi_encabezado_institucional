@@ -10,12 +10,12 @@
 function govi_encabezado_institucional_menu_default_menu_links() {
   $menu_links = array();
 
-  // Exported menu link: main-menu_atencin-al-ciudadano:govi-sdqs/crear.
-  $menu_links['main-menu_atencin-al-ciudadano:govi-sdqs/crear'] = array(
+  // Exported menu link: main-menu_atencin-a-la-ciudadana:govi-sdqs/crear.
+  $menu_links['main-menu_atencin-a-la-ciudadana:govi-sdqs/crear'] = array(
     'menu_name' => 'main-menu',
     'link_path' => 'govi-sdqs/crear',
     'router_path' => 'govi-sdqs/crear',
-    'link_title' => 'Atención al Ciudadano',
+    'link_title' => 'Atención a la Ciudadanía',
     'options' => array(
       'cami' => array(
         'pages' => '',
@@ -35,7 +35,7 @@ function govi_encabezado_institucional_menu_default_menu_links() {
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_atencin-al-ciudadano:govi-sdqs/crear',
+      'identifier' => 'main-menu_atencin-a-la-ciudadana:govi-sdqs/crear',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -44,35 +44,6 @@ function govi_encabezado_institucional_menu_default_menu_links() {
     'expanded' => 0,
     'weight' => -32,
     'customized' => 1,
-  );
-  // Exported menu link: main-menu_atencin-al-ciudadano:transparencia/atencion-ciudadano/sede-principal.
-  $menu_links['main-menu_atencin-al-ciudadano:transparencia/atencion-ciudadano/sede-principal'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => 'transparencia/atencion-ciudadano/sede-principal',
-    'router_path' => 'transparencia',
-    'link_title' => 'Atención al ciudadano',
-    'options' => array(
-      'cami' => array(
-        'pages' => '',
-      ),
-      'attributes' => array(),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_atencin-al-ciudadano:transparencia/atencion-ciudadano/sede-principal',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 0,
-    'has_children' => 0,
-    'expanded' => 0,
-    'weight' => -50,
-    'customized' => 1,
-    'parent_identifier' => 'main-menu_mecanismos-de-contacto:<front>',
   );
   // Exported menu link: main-menu_calendario-de-actividades:calendario/month.
   $menu_links['main-menu_calendario-de-actividades:calendario/month'] = array(
@@ -131,9 +102,9 @@ calendario/month/*',
     'external' => 1,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -43,
+    'weight' => -44,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:<front>',
+    'parent_identifier' => 'main-menu_la-entidad:<front>',
   );
   // Exported menu link: main-menu_control:transparencia/control.
   $menu_links['main-menu_control:transparencia/control'] = array(
@@ -160,9 +131,9 @@ calendario/month/*',
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -44,
+    'weight' => -43,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:<front>',
+    'parent_identifier' => 'main-menu_la-entidad:<front>',
   );
   // Exported menu link: main-menu_convocatorias:transparencia/informacion-interes/convocatorias.
   $menu_links['main-menu_convocatorias:transparencia/informacion-interes/convocatorias'] = array(
@@ -467,13 +438,13 @@ transparencia/informacion-interes/convocatoria',
     'expanded' => 1,
     'weight' => -48,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:<front>',
+    'parent_identifier' => 'main-menu_la-entidad:<front>',
   );
-  // Exported menu link: main-menu_eventos:calendario/ano.
-  $menu_links['main-menu_eventos:calendario/ano'] = array(
+  // Exported menu link: main-menu_eventos:calendario.
+  $menu_links['main-menu_eventos:calendario'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'calendario/ano',
-    'router_path' => 'calendario/ano',
+    'link_path' => 'calendario',
+    'router_path' => 'calendario',
     'link_title' => 'Eventos',
     'options' => array(
       'cami' => array(
@@ -492,7 +463,7 @@ transparencia/informacion-interes/convocatoria',
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_eventos:calendario/ano',
+      'identifier' => 'main-menu_eventos:calendario',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -685,7 +656,7 @@ transparencia/informacion-interes/*',
     'expanded' => 1,
     'weight' => -49,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:<front>',
+    'parent_identifier' => 'main-menu_la-entidad:<front>',
   );
   // Exported menu link: main-menu_informacin-para-poblacin-vulnerable:transparencia/control/informacion-poblacion-vulnerable.
   $menu_links['main-menu_informacin-para-poblacin-vulnerable:transparencia/control/informacion-poblacion-vulnerable'] = array(
@@ -869,9 +840,42 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -41,
+    'weight' => -42,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:<front>',
+    'parent_identifier' => 'main-menu_la-entidad:<front>',
+  );
+  // Exported menu link: main-menu_la-entidad:<front>.
+  $menu_links['main-menu_la-entidad:<front>'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => '<front>',
+    'router_path' => '',
+    'link_title' => 'La Entidad',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(
+        'title' => 'transparencia',
+        'class' => array(
+          0 => 'icon-circle_ok',
+        ),
+      ),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_la-entidad:<front>',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 1,
+    'has_children' => 1,
+    'expanded' => 1,
+    'weight' => -49,
+    'customized' => 1,
   );
   // Exported menu link: main-menu_lineamientos:transparencia/marco-legal/lineamientos.
   $menu_links['main-menu_lineamientos:transparencia/marco-legal/lineamientos'] = array(
@@ -904,12 +908,12 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'customized' => 1,
     'parent_identifier' => 'main-menu_marco-legal:transparencia/marco-legal',
   );
-  // Exported menu link: main-menu_localizacin-fsica-sucursales-o-regionales:transparencia/atencion-ciudadano/sedes.
-  $menu_links['main-menu_localizacin-fsica-sucursales-o-regionales:transparencia/atencion-ciudadano/sedes'] = array(
+  // Exported menu link: main-menu_localizacin-fsica-sucursales-o-regionales-horarios-y-das-de-atencin-al-pblico:transparencia/mecanismos-contacto/localizacion-fisica-horarios-atencion.
+  $menu_links['main-menu_localizacin-fsica-sucursales-o-regionales-horarios-y-das-de-atencin-al-pblico:transparencia/mecanismos-contacto/localizacion-fisica-horarios-atencion'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => 'transparencia/atencion-ciudadano/sedes',
-    'router_path' => 'transparencia',
-    'link_title' => 'Localización física, sucursales o regionales',
+    'link_path' => 'transparencia/mecanismos-contacto/localizacion-fisica-horarios-atencion',
+    'router_path' => 'transparencia/mecanismos-contacto',
+    'link_title' => 'Localización física, sucursales o regionales, horarios y días de atención al público',
     'options' => array(
       'cami' => array(
         'pages' => '',
@@ -922,7 +926,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_localizacin-fsica-sucursales-o-regionales:transparencia/atencion-ciudadano/sedes',
+      'identifier' => 'main-menu_localizacin-fsica-sucursales-o-regionales-horarios-y-das-de-atencin-al-pblico:transparencia/mecanismos-contacto/localizacion-fisica-horarios-atencion',
     ),
     'module' => 'menu',
     'hidden' => 0,
@@ -931,7 +935,7 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'expanded' => 0,
     'weight' => -49,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_mecanismos-de-contacto:<front>',
+    'parent_identifier' => 'main-menu_mecanismos-de-contacto-con-el-sujeto-obligado:transparencia/mecanismos-contacto',
   );
   // Exported menu link: main-menu_manual-de-contrataciones:transparencia/contratacion/manual_contrataciones.
   $menu_links['main-menu_manual-de-contrataciones:transparencia/contratacion/manual_contrataciones'] = array(
@@ -993,14 +997,14 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'expanded' => 1,
     'weight' => -47,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:<front>',
+    'parent_identifier' => 'main-menu_la-entidad:<front>',
   );
-  // Exported menu link: main-menu_mecanismos-de-contacto:<front>.
-  $menu_links['main-menu_mecanismos-de-contacto:<front>'] = array(
+  // Exported menu link: main-menu_mecanismos-de-atencin-a-la-ciudadana:transparencia/mecanismos-contacto/mecanismos-atencion-ciudadania.
+  $menu_links['main-menu_mecanismos-de-atencin-a-la-ciudadana:transparencia/mecanismos-contacto/mecanismos-atencion-ciudadania'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Mecanismos de contacto',
+    'link_path' => 'transparencia/mecanismos-contacto/mecanismos-atencion-ciudadania',
+    'router_path' => 'transparencia/mecanismos-contacto/mecanismos-atencion-ciudadania',
+    'link_title' => 'Mecanismos de atención a la ciudadanía',
     'options' => array(
       'cami' => array(
         'pages' => '',
@@ -1013,16 +1017,45 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_mecanismos-de-contacto:<front>',
+      'identifier' => 'main-menu_mecanismos-de-atencin-a-la-ciudadana:transparencia/mecanismos-contacto/mecanismos-atencion-ciudadania',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -50,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_mecanismos-de-contacto-con-el-sujeto-obligado:transparencia/mecanismos-contacto',
+  );
+  // Exported menu link: main-menu_mecanismos-de-contacto-con-el-sujeto-obligado:transparencia/mecanismos-contacto.
+  $menu_links['main-menu_mecanismos-de-contacto-con-el-sujeto-obligado:transparencia/mecanismos-contacto'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/mecanismos-contacto',
+    'router_path' => 'transparencia/mecanismos-contacto',
+    'link_title' => 'Mecanismos de contacto con el sujeto obligado',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_mecanismos-de-contacto-con-el-sujeto-obligado:transparencia/mecanismos-contacto',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
     'weight' => -50,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:<front>',
+    'parent_identifier' => 'main-menu_la-entidad:<front>',
   );
   // Exported menu link: main-menu_metas-objetivos-e-indicadores:transparencia/planeacion/metas-objetivos-indicadores.
   $menu_links['main-menu_metas-objetivos-e-indicadores:transparencia/planeacion/metas-objetivos-indicadores'] = array(
@@ -1150,6 +1183,37 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'expanded' => 0,
     'weight' => -39,
     'customized' => 1,
+  );
+  // Exported menu link: main-menu_notificaciones-judiciales:transparencia/mecanismos-contacto/notificaciones-judiciales.
+  $menu_links['main-menu_notificaciones-judiciales:transparencia/mecanismos-contacto/notificaciones-judiciales'] = array(
+    'menu_name' => 'main-menu',
+    'link_path' => 'transparencia/mecanismos-contacto/notificaciones-judiciales',
+    'router_path' => 'transparencia/mecanismos-contacto/notificaciones-judiciales',
+    'link_title' => 'Notificaciones Judiciales',
+    'options' => array(
+      'cami' => array(
+        'pages' => '',
+      ),
+      'attributes' => array(),
+      'item_attributes' => array(
+        'data-inner-width' => '',
+        'data-inner-height' => '',
+        'id' => '',
+        'class' => '',
+        'style' => '',
+      ),
+      'identifier' => 'main-menu_notificaciones-judiciales:transparencia/mecanismos-contacto/notificaciones-judiciales',
+      'alter' => TRUE,
+      'menu_token_link_uuid' => 'menutoken/573e2f082d2fd',
+    ),
+    'module' => 'menu',
+    'hidden' => 0,
+    'external' => 0,
+    'has_children' => 0,
+    'expanded' => 0,
+    'weight' => -48,
+    'customized' => 1,
+    'parent_identifier' => 'main-menu_mecanismos-de-contacto-con-el-sujeto-obligado:transparencia/mecanismos-contacto',
   );
   // Exported menu link: main-menu_ofertas-de-empleo:transparencia/organizacion.
   $menu_links['main-menu_ofertas-de-empleo:transparencia/organizacion'] = array(
@@ -1302,9 +1366,9 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -45,
+    'weight' => -46,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:<front>',
+    'parent_identifier' => 'main-menu_la-entidad:<front>',
   );
   // Exported menu link: main-menu_planes-de-mejoramiento:transparencia/control/planes-mejoramiento.
   $menu_links['main-menu_planes-de-mejoramiento:transparencia/control/planes-mejoramiento'] = array(
@@ -1366,11 +1430,11 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
     'customized' => 1,
     'parent_identifier' => 'main-menu_planeacin:transparencia/planeacion',
   );
-  // Exported menu link: main-menu_polticas-de-seguridad-de-la-informacin-y-proteccin-de-datos-pesonales:<front>.
-  $menu_links['main-menu_polticas-de-seguridad-de-la-informacin-y-proteccin-de-datos-pesonales:<front>'] = array(
+  // Exported menu link: main-menu_polticas-de-seguridad-de-la-informacin-y-proteccin-de-datos-pesonales:transparencia/mecanismos-contacto/PSI-proteccion-datos-personales.
+  $menu_links['main-menu_polticas-de-seguridad-de-la-informacin-y-proteccin-de-datos-pesonales:transparencia/mecanismos-contacto/PSI-proteccion-datos-personales'] = array(
     'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
+    'link_path' => 'transparencia/mecanismos-contacto/PSI-proteccion-datos-personales',
+    'router_path' => 'transparencia/mecanismos-contacto/PSI-proteccion-datos-personales',
     'link_title' => 'Políticas de seguridad de la información y protección de datos pesonales',
     'options' => array(
       'cami' => array(
@@ -1384,16 +1448,16 @@ transparencia/instrumentos-gestion-informacion-publica/Informe-pqr-denuncias-sol
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'main-menu_polticas-de-seguridad-de-la-informacin-y-proteccin-de-datos-pesonales:<front>',
+      'identifier' => 'main-menu_polticas-de-seguridad-de-la-informacin-y-proteccin-de-datos-pesonales:transparencia/mecanismos-contacto/PSI-proteccion-datos-personales',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => -47,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_mecanismos-de-contacto:<front>',
+    'parent_identifier' => 'main-menu_mecanismos-de-contacto-con-el-sujeto-obligado:transparencia/mecanismos-contacto',
   );
   // Exported menu link: main-menu_preguntas-frecuentes:transparencia/informacion-interes/faqs.
   $menu_links['main-menu_preguntas-frecuentes:transparencia/informacion-interes/faqs'] = array(
@@ -1483,9 +1547,9 @@ transparencia/informacion-interes/faqs/*',
     'external' => 0,
     'has_children' => 1,
     'expanded' => 1,
-    'weight' => -46,
+    'weight' => -45,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:<front>',
+    'parent_identifier' => 'main-menu_la-entidad:<front>',
   );
   // Exported menu link: main-menu_procesos-y-procedimientos:transparencia/organizacion.
   $menu_links['main-menu_procesos-y-procedimientos:transparencia/organizacion'] = array(
@@ -1609,39 +1673,6 @@ transparencia/informacion-interes/faqs/*',
     'customized' => 1,
     'parent_identifier' => 'main-menu_control:transparencia/control',
   );
-  // Exported menu link: main-menu_transparencia:<front>.
-  $menu_links['main-menu_transparencia:<front>'] = array(
-    'menu_name' => 'main-menu',
-    'link_path' => '<front>',
-    'router_path' => '',
-    'link_title' => 'Transparencia',
-    'options' => array(
-      'cami' => array(
-        'pages' => '',
-      ),
-      'attributes' => array(
-        'title' => 'transparencia',
-        'class' => array(
-          0 => 'icon-circle_ok',
-        ),
-      ),
-      'item_attributes' => array(
-        'data-inner-width' => '',
-        'data-inner-height' => '',
-        'id' => '',
-        'class' => '',
-        'style' => '',
-      ),
-      'identifier' => 'main-menu_transparencia:<front>',
-    ),
-    'module' => 'menu',
-    'hidden' => 0,
-    'external' => 1,
-    'has_children' => 1,
-    'expanded' => 1,
-    'weight' => -49,
-    'customized' => 1,
-  );
   // Exported menu link: main-menu_trmites-y-servicios:transparencia/tramites-servicios.
   $menu_links['main-menu_trmites-y-servicios:transparencia/tramites-servicios'] = array(
     'menu_name' => 'main-menu',
@@ -1669,9 +1700,9 @@ transparencia/informacion-interes/faqs/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -42,
+    'weight' => -41,
     'customized' => 1,
-    'parent_identifier' => 'main-menu_transparencia:<front>',
+    'parent_identifier' => 'main-menu_la-entidad:<front>',
   );
   // Exported menu link: main-menu_visin:transparencia/organizacion.
   $menu_links['main-menu_visin:transparencia/organizacion'] = array(
@@ -1771,7 +1802,7 @@ transparencia/contratación/',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -43,
+    'weight' => -46,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_control:transparencia/control.
@@ -1829,7 +1860,7 @@ transparencia/organizacion/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -48,
+    'weight' => -49,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_informacin-de-inters:transparencia/informacion-interes.
@@ -1880,7 +1911,7 @@ transparencia/informacion-interes/informacion-adicional/*
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -49,
+    'weight' => -42,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_instrumentos-de-gestin-de-informacin:transparencia/instrumentos-gestion-informacion-publica/.
@@ -1909,7 +1940,7 @@ transparencia/instrumentos-gestion-informacion-publica',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -41,
+    'weight' => -43,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_marco-legal:transparencia/marco-legal.
@@ -1938,14 +1969,14 @@ transparencia/marco-legal/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -47,
+    'weight' => -48,
     'customized' => 1,
   );
-  // Exported menu link: menu-transparencia-segundo-nivel_mecanismos-de-contacto:<front>.
-  $menu_links['menu-transparencia-segundo-nivel_mecanismos-de-contacto:<front>'] = array(
+  // Exported menu link: menu-transparencia-segundo-nivel_mecanismos-de-contacto:transparencia/mecanismos-contacto.
+  $menu_links['menu-transparencia-segundo-nivel_mecanismos-de-contacto:transparencia/mecanismos-contacto'] = array(
     'menu_name' => 'menu-transparencia-segundo-nivel',
-    'link_path' => '<front>',
-    'router_path' => '',
+    'link_path' => 'transparencia/mecanismos-contacto',
+    'router_path' => 'transparencia/mecanismos-contacto',
     'link_title' => 'Mecanismos de contacto',
     'options' => array(
       'cami' => array(
@@ -1959,11 +1990,11 @@ transparencia/marco-legal/*',
         'class' => '',
         'style' => '',
       ),
-      'identifier' => 'menu-transparencia-segundo-nivel_mecanismos-de-contacto:<front>',
+      'identifier' => 'menu-transparencia-segundo-nivel_mecanismos-de-contacto:transparencia/mecanismos-contacto',
     ),
     'module' => 'menu',
     'hidden' => 0,
-    'external' => 1,
+    'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
     'weight' => -50,
@@ -1997,7 +2028,7 @@ transparencia/planeacion/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -45,
+    'weight' => -47,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_presupuesto:transparencia/presupuesto.
@@ -2028,7 +2059,7 @@ transparencia/presupuesto/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -46,
+    'weight' => -45,
     'customized' => 1,
   );
   // Exported menu link: menu-transparencia-segundo-nivel_trmites-y-servicios:transparencia/tramites-servicios.
@@ -2057,14 +2088,13 @@ transparencia/tramites-servicios/*',
     'external' => 0,
     'has_children' => 0,
     'expanded' => 0,
-    'weight' => -42,
+    'weight' => -41,
     'customized' => 1,
   );
 
   // Translatables
   // Included for use with string extractors like potx.
-  t('Atención al Ciudadano');
-  t('Atención al ciudadano');
+  t('Atención a la Ciudadanía');
   t('Calendario de Actividades');
   t('Contratación');
   t('Control');
@@ -2093,15 +2123,19 @@ transparencia/tramites-servicios/*',
   t('Inicio');
   t('Instrumentos de gestión de información');
   t('Instrumentos de gestión de información pública');
+  t('La Entidad');
   t('Lineamientos');
-  t('Localización física, sucursales o regionales');
+  t('Localización física, sucursales o regionales, horarios y días de atención al público');
   t('Manual de contrataciones');
   t('Marco Legal');
+  t('Mecanismos de atención a la ciudadanía');
   t('Mecanismos de contacto');
+  t('Mecanismos de contacto con el sujeto obligado');
   t('Metas, objetivos e indicadores');
   t('Misión');
   t('Normatividad');
   t('Noticias');
+  t('Notificaciones Judiciales');
   t('Ofertas de empleo');
   t('Organigrama');
   t('Participación Ciudadana');
@@ -2117,7 +2151,6 @@ transparencia/tramites-servicios/*',
   t('Programas y Proyectos');
   t('Relacionados con la Información');
   t('Reportes de control interno');
-  t('Transparencia');
   t('Trámites y Servicios');
   t('Visión');
 
