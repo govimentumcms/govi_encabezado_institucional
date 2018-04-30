@@ -1,0 +1,5 @@
+<?php
+
+function govi_encabezado_institucional_update_7000() {
+    variable_set('govi_test', '1');
+}
